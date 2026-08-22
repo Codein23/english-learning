@@ -78,7 +78,12 @@ export type MatchingAssignment = Record<string, { past: string | null; participl
 export type AnswerInput =
   | { kind: 'choice'; value: string }
   | { kind: 'fields'; values: Partial<Record<VerbForm, string>> }
-  | { kind: 'matching'; assignment: MatchingAssignment }
+  /**
+   * `mistakes` : verbes ayant reçu au moins une carte erronée avant d'être
+   * complétés. L'interface n'accepte que les poses valides, donc sans cette
+   * remontée la précision du mode Association serait toujours de 100 %.
+   */
+  | { kind: 'matching'; assignment: MatchingAssignment; mistakes?: string[] }
   | { kind: 'sort'; assignment: Record<string, Pattern | null> }
   | { kind: 'selfRating'; value: 'again' | 'good' | 'easy' }
   | { kind: 'timeout' };
@@ -135,8 +140,9 @@ export function checkAnswer(
   switch (question.mode) {
     case 'matching': {
       if (input.kind !== 'matching') break;
-      const missed: string[] = [];
+      const missed: string[] = [...new Set(input.mistakes ?? [])];
       for (const slot of question.slots) {
+        if (missed.includes(slot.verbId)) continue;
         const assignment = input.assignment[slot.verbId];
         const pastCard = question.cards.find((card) => card.uid === assignment?.past);
         const participleCard = question.cards.find(

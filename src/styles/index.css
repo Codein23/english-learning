@@ -210,6 +210,28 @@
   }
 }
 
+/* Secousse d'erreur du mode Association — 320 ms, jamais bloquante.
+   Sous reduced-motion elle est neutralisée par le bloc ci-dessous ;
+   la bordure `danger` reste le signal visible. */
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-4px);
+  }
+  40% {
+    transform: translateX(4px);
+  }
+  60% {
+    transform: translateX(-2px);
+  }
+  80% {
+    transform: translateX(2px);
+  }
+}
+
 /* Aucune animation ne doit retarder une réponse : sous reduced-motion,
    tout devient instantané plutôt que « plus lent ». */
 @media (prefers-reduced-motion: reduce) {

@@ -1,4 +1,4 @@
-import { BarChart3, Dumbbell, Music4 } from 'lucide-react';
+import { BarChart3, Music4 } from 'lucide-react';
 import { PageTitle } from '@/components/ui/PageTitle';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { ButtonLink } from '@/components/ui/Button';
@@ -8,27 +8,6 @@ import { ButtonLink } from '@/components/ui/Button';
  * les deep-links et l'état actif de la barre soient testables dès maintenant —
  * jamais de lien mort, jamais d'écran vide muet.
  */
-
-export function QuizSetupPage() {
-  return (
-    <div className="space-y-6">
-      <PageTitle
-        title="Entraînement"
-        description="Écran de paramétrage : modes, nombre de questions, minuteurs, périmètre, sens de l'interrogation, difficulté."
-      />
-      <EmptyState
-        icon={Dumbbell}
-        title="Moteur de quiz en cours de construction"
-        description="Le setup et les neuf modes arrivent au lot suivant. En attendant, le tableau des verbes est complet et consultable hors ligne."
-        action={
-          <ButtonLink to="/verbs" size="sm">
-            Consulter le tableau
-          </ButtonLink>
-        }
-      />
-    </div>
-  );
-}
 
 export function StatsPage() {
   return (
