@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirection…</title>
+    <script>
+      // Le routeur est en mode hash, donc ce fichier ne devrait jamais servir.
+      // Filet de sécurité : toute URL inconnue sous le sous-chemin revient à l'app.
+      location.replace('/english-learning/#/');
+    </script>
+  </head>
+  <body>
+    <p>Redirection vers <a href="/english-learning/#/">l'application</a>.</p>
+  </body>
+</html>
