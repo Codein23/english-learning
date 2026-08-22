@@ -1,0 +1,224 @@
+@import 'tailwindcss';
+
+/* ---------------------------------------------------------------------------
+   Design system — « Encre & papier »
+   Neutres purs (chroma 0) pour toute l'architecture, un seul accent rose.
+   Voir DESIGN.md : aucune valeur brute ne doit apparaître dans un composant.
+--------------------------------------------------------------------------- */
+
+:root,
+[data-theme='light'] {
+  --app-bg: oklch(1 0 0);
+  --app-surface: oklch(0.975 0 0);
+  --app-surface-2: oklch(0.945 0 0);
+  --app-border: oklch(0.905 0 0);
+  --app-border-strong: oklch(0.8 0 0);
+  --app-ink: oklch(0.17 0 0);
+  --app-muted: oklch(0.48 0 0);
+
+  --app-accent: oklch(0.48 0.19 343);
+  --app-accent-hover: oklch(0.42 0.185 343);
+  --app-accent-text: oklch(0.48 0.19 343);
+  --app-accent-subtle: oklch(0.96 0.02 343);
+  --app-on-accent: oklch(1 0 0);
+
+  --app-success: oklch(0.45 0.14 152);
+  --app-success-text: oklch(0.42 0.13 152);
+  --app-success-subtle: oklch(0.96 0.03 152);
+  --app-danger: oklch(0.48 0.19 27);
+  --app-danger-text: oklch(0.46 0.18 27);
+  --app-danger-subtle: oklch(0.96 0.025 27);
+  --app-warning: oklch(0.47 0.11 75);
+  --app-warning-text: oklch(0.44 0.1 75);
+  --app-warning-subtle: oklch(0.96 0.035 80);
+
+  /* Chips de groupe Huito : L et C constants, seule la teinte varie. */
+  --group-bg-l: 0.945;
+  --group-bg-c: 0.035;
+  --group-fg-l: 0.32;
+  --group-fg-c: 0.09;
+
+  --app-shadow-float: 0 8px 24px -8px oklch(0 0 0 / 0.18);
+  color-scheme: light;
+}
+
+[data-theme='dark'] {
+  --app-bg: oklch(0.14 0 0);
+  --app-surface: oklch(0.185 0 0);
+  --app-surface-2: oklch(0.23 0 0);
+  --app-border: oklch(0.29 0 0);
+  --app-border-strong: oklch(0.4 0 0);
+  --app-ink: oklch(0.96 0 0);
+  --app-muted: oklch(0.7 0 0);
+
+  --app-accent: oklch(0.42 0.17 343);
+  --app-accent-hover: oklch(0.48 0.19 343);
+  --app-accent-text: oklch(0.8 0.13 343);
+  --app-accent-subtle: oklch(0.24 0.05 343);
+  --app-on-accent: oklch(1 0 0);
+
+  --app-success: oklch(0.42 0.13 152);
+  --app-success-text: oklch(0.78 0.15 152);
+  --app-success-subtle: oklch(0.24 0.05 152);
+  --app-danger: oklch(0.44 0.17 27);
+  --app-danger-text: oklch(0.75 0.16 25);
+  --app-danger-subtle: oklch(0.24 0.06 27);
+  --app-warning: oklch(0.44 0.1 75);
+  --app-warning-text: oklch(0.8 0.13 80);
+  --app-warning-subtle: oklch(0.24 0.05 80);
+
+  --group-bg-l: 0.27;
+  --group-bg-c: 0.05;
+  --group-fg-l: 0.85;
+  --group-fg-c: 0.09;
+
+  --app-shadow-float: 0 8px 24px -8px oklch(0 0 0 / 0.6);
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--app-bg);
+  --color-surface: var(--app-surface);
+  --color-surface-2: var(--app-surface-2);
+  --color-border: var(--app-border);
+  --color-border-strong: var(--app-border-strong);
+  --color-ink: var(--app-ink);
+  --color-muted: var(--app-muted);
+
+  --color-accent: var(--app-accent);
+  --color-accent-hover: var(--app-accent-hover);
+  --color-accent-text: var(--app-accent-text);
+  --color-accent-subtle: var(--app-accent-subtle);
+  --color-on-accent: var(--app-on-accent);
+
+  --color-success: var(--app-success);
+  --color-success-text: var(--app-success-text);
+  --color-success-subtle: var(--app-success-subtle);
+  --color-danger: var(--app-danger);
+  --color-danger-text: var(--app-danger-text);
+  --color-danger-subtle: var(--app-danger-subtle);
+  --color-warning: var(--app-warning);
+  --color-warning-text: var(--app-warning-text);
+  --color-warning-subtle: var(--app-warning-subtle);
+
+  --font-sans:
+    'Archivo Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* Échelle fixe en rem, ratio ~1.2 (registre product : pas de clamp sur l'UI). */
+  --text-2xs: 0.75rem;
+  --text-2xs--line-height: 1.4;
+  --text-xs: 0.8125rem;
+  --text-xs--line-height: 1.45;
+  --text-sm: 0.875rem;
+  --text-sm--line-height: 1.5;
+  --text-base: 1rem;
+  --text-base--line-height: 1.6;
+  --text-lg: 1.125rem;
+  --text-lg--line-height: 1.5;
+  --text-xl: 1.375rem;
+  --text-xl--line-height: 1.35;
+  --text-2xl: 1.75rem;
+  --text-2xl--line-height: 1.3;
+  --text-3xl: 2.25rem;
+  --text-3xl--line-height: 1.2;
+  --text-4xl: 3rem;
+  --text-4xl--line-height: 1.1;
+
+  --radius-field: 0.5rem;
+  --radius-card: 0.75rem;
+
+  --shadow-float: var(--app-shadow-float);
+
+  --container-content: 70rem;
+
+  /* Échelle z-index sémantique — aucune valeur arbitraire ailleurs. */
+  --z-sticky: 10;
+  --z-tabbar: 20;
+  --z-dropdown: 30;
+  --z-overlay: 40;
+  --z-modal: 50;
+  --z-toast: 60;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: var(--text-base);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+    line-height: 1.25;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent-text);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background-color: var(--color-accent-subtle);
+    color: var(--color-ink);
+  }
+
+  /* Cible tactile minimale sur toute la surface interactive (mobile). */
+  @media (pointer: coarse) {
+    button,
+    a[role='button'],
+    [role='tab'],
+    summary {
+      min-height: 44px;
+    }
+  }
+}
+
+@layer utilities {
+  /* Chiffres tabulaires : obligatoire sur scores, chronos, compteurs, rangs. */
+  .tnum {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: 'tnum' 1;
+  }
+
+  .prose-measure {
+    max-width: 68ch;
+  }
+
+  /* Chip de groupe Huito — la teinte est passée en --h par le composant. */
+  .group-chip {
+    background-color: oklch(var(--group-bg-l) var(--group-bg-c) var(--h));
+    color: oklch(var(--group-fg-l) var(--group-fg-c) var(--h));
+  }
+
+  .group-chip-neutral {
+    background-color: var(--color-surface-2);
+    color: var(--color-ink);
+  }
+}
+
+/* Aucune animation ne doit retarder une réponse : sous reduced-motion,
+   tout devient instantané plutôt que « plus lent ». */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
