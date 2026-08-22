@@ -1,0 +1,4260 @@
+[
+  {
+    "id": "arise",
+    "base": "arise",
+    "past": [
+      "arose"
+    ],
+    "participle": [
+      "arisen"
+    ],
+    "fr": [
+      "survenir",
+      "se présenter"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "awake",
+    "base": "awake",
+    "past": [
+      "awoke"
+    ],
+    "participle": [
+      "awoken"
+    ],
+    "fr": [
+      "(se) réveiller"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "be",
+    "base": "be",
+    "past": [
+      "was",
+      "were"
+    ],
+    "participle": [
+      "been"
+    ],
+    "fr": [
+      "être"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "OUTSIDERS",
+    "rank": 1,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": "\"was\" au singulier, \"were\" au pluriel et avec \"you\".",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "bear",
+    "base": "bear",
+    "past": [
+      "bore"
+    ],
+    "participle": [
+      "borne",
+      "born"
+    ],
+    "fr": [
+      "supporter",
+      "porter"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": 89,
+    "tier": 2,
+    "tags": [
+      "top100"
+    ],
+    "note": "\"born\" uniquement pour la naissance (be born).",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "beat",
+    "base": "beat",
+    "past": [
+      "beat"
+    ],
+    "participle": [
+      "beaten",
+      "beat"
+    ],
+    "fr": [
+      "battre"
+    ],
+    "pattern": "AAB",
+    "huitoGroup": null,
+    "rank": 66,
+    "tier": 2,
+    "tags": [
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "become",
+    "base": "become",
+    "past": [
+      "became"
+    ],
+    "participle": [
+      "become"
+    ],
+    "fr": [
+      "devenir"
+    ],
+    "pattern": "ABA",
+    "huitoGroup": "OUTSIDERS",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "begin",
+    "base": "begin",
+    "past": [
+      "began"
+    ],
+    "participle": [
+      "begun"
+    ],
+    "fr": [
+      "commencer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP8",
+    "rank": 27,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "bend",
+    "base": "bend",
+    "past": [
+      "bent"
+    ],
+    "participle": [
+      "bent"
+    ],
+    "fr": [
+      "plier",
+      "tordre",
+      "courber"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "TEA",
+    "rank": 96,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "bet",
+    "base": "bet",
+    "past": [
+      "bet",
+      "betted"
+    ],
+    "participle": [
+      "bet",
+      "betted"
+    ],
+    "fr": [
+      "parier"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": "TRIPLETS",
+    "rank": 70,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "bid",
+    "base": "bid",
+    "past": [
+      "bid"
+    ],
+    "participle": [
+      "bid"
+    ],
+    "fr": [
+      "enchérir",
+      "offrir (un prix)"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "bind",
+    "base": "bind",
+    "past": [
+      "bound"
+    ],
+    "participle": [
+      "bound"
+    ],
+    "fr": [
+      "lier",
+      "relier"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "bite",
+    "base": "bite",
+    "past": [
+      "bit"
+    ],
+    "participle": [
+      "bitten"
+    ],
+    "fr": [
+      "mordre"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP9",
+    "rank": 56,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "bleed",
+    "base": "bleed",
+    "past": [
+      "bled"
+    ],
+    "participle": [
+      "bled"
+    ],
+    "fr": [
+      "saigner"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "RED",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "blow",
+    "base": "blow",
+    "past": [
+      "blew"
+    ],
+    "participle": [
+      "blown"
+    ],
+    "fr": [
+      "souffler"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP6",
+    "rank": 76,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "break",
+    "base": "break",
+    "past": [
+      "broke"
+    ],
+    "participle": [
+      "broken"
+    ],
+    "fr": [
+      "casser",
+      "briser"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP9",
+    "rank": 46,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "breed",
+    "base": "breed",
+    "past": [
+      "bred"
+    ],
+    "participle": [
+      "bred"
+    ],
+    "fr": [
+      "élever",
+      "se reproduire"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "bring",
+    "base": "bring",
+    "past": [
+      "brought"
+    ],
+    "participle": [
+      "brought"
+    ],
+    "fr": [
+      "apporter"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GHT",
+    "rank": 30,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "broadcast",
+    "base": "broadcast",
+    "past": [
+      "broadcast"
+    ],
+    "participle": [
+      "broadcast"
+    ],
+    "fr": [
+      "diffuser",
+      "émettre"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": "TRIPLETS",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "build",
+    "base": "build",
+    "past": [
+      "built"
+    ],
+    "participle": [
+      "built"
+    ],
+    "fr": [
+      "construire"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "TEA",
+    "rank": 81,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "burn",
+    "base": "burn",
+    "past": [
+      "burnt",
+      "burned"
+    ],
+    "participle": [
+      "burnt",
+      "burned"
+    ],
+    "fr": [
+      "brûler"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "TEA",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": "\"burnt\" est britannique, \"burned\" américain.",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "burst",
+    "base": "burst",
+    "past": [
+      "burst"
+    ],
+    "participle": [
+      "burst"
+    ],
+    "fr": [
+      "éclater"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": "TRIPLETS",
+    "rank": 86,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "buy",
+    "base": "buy",
+    "past": [
+      "bought"
+    ],
+    "participle": [
+      "bought"
+    ],
+    "fr": [
+      "acheter"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GHT",
+    "rank": 39,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "cast",
+    "base": "cast",
+    "past": [
+      "cast"
+    ],
+    "participle": [
+      "cast"
+    ],
+    "fr": [
+      "lancer",
+      "distribuer (un rôle)"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": 99,
+    "tier": 2,
+    "tags": [
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "catch",
+    "base": "catch",
+    "past": [
+      "caught"
+    ],
+    "participle": [
+      "caught"
+    ],
+    "fr": [
+      "attraper"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GHT",
+    "rank": 45,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "choose",
+    "base": "choose",
+    "past": [
+      "chose"
+    ],
+    "participle": [
+      "chosen"
+    ],
+    "fr": [
+      "choisir"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP9",
+    "rank": 73,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "cling",
+    "base": "cling",
+    "past": [
+      "clung"
+    ],
+    "participle": [
+      "clung"
+    ],
+    "fr": [
+      "s'accrocher",
+      "se cramponner"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "come",
+    "base": "come",
+    "past": [
+      "came"
+    ],
+    "participle": [
+      "come"
+    ],
+    "fr": [
+      "venir"
+    ],
+    "pattern": "ABA",
+    "huitoGroup": "OUTSIDERS",
+    "rank": 7,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "cost",
+    "base": "cost",
+    "past": [
+      "cost"
+    ],
+    "participle": [
+      "cost"
+    ],
+    "fr": [
+      "coûter"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": "TRIPLETS",
+    "rank": 36,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "creep",
+    "base": "creep",
+    "past": [
+      "crept"
+    ],
+    "participle": [
+      "crept"
+    ],
+    "fr": [
+      "ramper",
+      "se glisser"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "TEA",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "cut",
+    "base": "cut",
+    "past": [
+      "cut"
+    ],
+    "participle": [
+      "cut"
+    ],
+    "fr": [
+      "couper"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": "TRIPLETS",
+    "rank": 40,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "deal",
+    "base": "deal",
+    "past": [
+      "dealt"
+    ],
+    "participle": [
+      "dealt"
+    ],
+    "fr": [
+      "distribuer",
+      "traiter"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "TEA",
+    "rank": 65,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "dig",
+    "base": "dig",
+    "past": [
+      "dug"
+    ],
+    "participle": [
+      "dug"
+    ],
+    "fr": [
+      "creuser"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GEMINI",
+    "rank": 93,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "dive",
+    "base": "dive",
+    "past": [
+      "dived",
+      "dove"
+    ],
+    "participle": [
+      "dived"
+    ],
+    "fr": [
+      "plonger"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": "\"dove\" est américain.",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "do",
+    "base": "do",
+    "past": [
+      "did"
+    ],
+    "participle": [
+      "done"
+    ],
+    "fr": [
+      "faire"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "OUTSIDERS",
+    "rank": 4,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "draw",
+    "base": "draw",
+    "past": [
+      "drew"
+    ],
+    "participle": [
+      "drawn"
+    ],
+    "fr": [
+      "dessiner",
+      "tirer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP6",
+    "rank": 59,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "dream",
+    "base": "dream",
+    "past": [
+      "dreamt",
+      "dreamed"
+    ],
+    "participle": [
+      "dreamt",
+      "dreamed"
+    ],
+    "fr": [
+      "rêver"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "TEA",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": "\"dreamt\" est britannique.",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "drink",
+    "base": "drink",
+    "past": [
+      "drank"
+    ],
+    "participle": [
+      "drunk"
+    ],
+    "fr": [
+      "boire"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP8",
+    "rank": 53,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "drive",
+    "base": "drive",
+    "past": [
+      "drove"
+    ],
+    "participle": [
+      "driven"
+    ],
+    "fr": [
+      "conduire"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP9",
+    "rank": 43,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "dwell",
+    "base": "dwell",
+    "past": [
+      "dwelt",
+      "dwelled"
+    ],
+    "participle": [
+      "dwelt",
+      "dwelled"
+    ],
+    "fr": [
+      "demeurer",
+      "habiter"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "eat",
+    "base": "eat",
+    "past": [
+      "ate"
+    ],
+    "participle": [
+      "eaten"
+    ],
+    "fr": [
+      "manger"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP9",
+    "rank": 38,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "fall",
+    "base": "fall",
+    "past": [
+      "fell"
+    ],
+    "participle": [
+      "fallen"
+    ],
+    "fr": [
+      "tomber"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP9",
+    "rank": 48,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "feed",
+    "base": "feed",
+    "past": [
+      "fed"
+    ],
+    "participle": [
+      "fed"
+    ],
+    "fr": [
+      "nourrir"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "RED",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "feel",
+    "base": "feel",
+    "past": [
+      "felt"
+    ],
+    "participle": [
+      "felt"
+    ],
+    "fr": [
+      "sentir",
+      "ressentir"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "TEA",
+    "rank": 18,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "fight",
+    "base": "fight",
+    "past": [
+      "fought"
+    ],
+    "participle": [
+      "fought"
+    ],
+    "fr": [
+      "se battre",
+      "combattre"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GHT",
+    "rank": 78,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "find",
+    "base": "find",
+    "past": [
+      "found"
+    ],
+    "participle": [
+      "found"
+    ],
+    "fr": [
+      "trouver"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GEMINI",
+    "rank": 15,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "fit",
+    "base": "fit",
+    "past": [
+      "fit",
+      "fitted"
+    ],
+    "participle": [
+      "fit",
+      "fitted"
+    ],
+    "fr": [
+      "aller (taille)",
+      "correspondre"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": "TRIPLETS",
+    "rank": 68,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "flee",
+    "base": "flee",
+    "past": [
+      "fled"
+    ],
+    "participle": [
+      "fled"
+    ],
+    "fr": [
+      "fuir",
+      "s'enfuir"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "fling",
+    "base": "fling",
+    "past": [
+      "flung"
+    ],
+    "participle": [
+      "flung"
+    ],
+    "fr": [
+      "lancer violemment"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "fly",
+    "base": "fly",
+    "past": [
+      "flew"
+    ],
+    "participle": [
+      "flown"
+    ],
+    "fr": [
+      "voler (dans les airs)"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP6",
+    "rank": 74,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "forbid",
+    "base": "forbid",
+    "past": [
+      "forbade",
+      "forbad"
+    ],
+    "participle": [
+      "forbidden"
+    ],
+    "fr": [
+      "interdire"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP9",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "forecast",
+    "base": "forecast",
+    "past": [
+      "forecast",
+      "forecasted"
+    ],
+    "participle": [
+      "forecast",
+      "forecasted"
+    ],
+    "fr": [
+      "prévoir"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "foresee",
+    "base": "foresee",
+    "past": [
+      "foresaw"
+    ],
+    "participle": [
+      "foreseen"
+    ],
+    "fr": [
+      "prévoir",
+      "anticiper"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "forget",
+    "base": "forget",
+    "past": [
+      "forgot"
+    ],
+    "participle": [
+      "forgotten",
+      "forgot"
+    ],
+    "fr": [
+      "oublier"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP9",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "forgive",
+    "base": "forgive",
+    "past": [
+      "forgave"
+    ],
+    "participle": [
+      "forgiven"
+    ],
+    "fr": [
+      "pardonner"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "forsake",
+    "base": "forsake",
+    "past": [
+      "forsook"
+    ],
+    "participle": [
+      "forsaken"
+    ],
+    "fr": [
+      "abandonner",
+      "renoncer à"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "freeze",
+    "base": "freeze",
+    "past": [
+      "froze"
+    ],
+    "participle": [
+      "frozen"
+    ],
+    "fr": [
+      "geler",
+      "congeler"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP9",
+    "rank": 91,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "get",
+    "base": "get",
+    "past": [
+      "got"
+    ],
+    "participle": [
+      "got",
+      "gotten"
+    ],
+    "fr": [
+      "obtenir",
+      "recevoir",
+      "devenir"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GEMINI",
+    "rank": 6,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": "\"gotten\" est la forme américaine du participe passé.",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "give",
+    "base": "give",
+    "past": [
+      "gave"
+    ],
+    "participle": [
+      "given"
+    ],
+    "fr": [
+      "donner"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP9",
+    "rank": 17,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "go",
+    "base": "go",
+    "past": [
+      "went"
+    ],
+    "participle": [
+      "gone"
+    ],
+    "fr": [
+      "aller"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "OUTSIDERS",
+    "rank": 8,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "grind",
+    "base": "grind",
+    "past": [
+      "ground"
+    ],
+    "participle": [
+      "ground"
+    ],
+    "fr": [
+      "moudre",
+      "broyer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GEMINI",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "grow",
+    "base": "grow",
+    "past": [
+      "grew"
+    ],
+    "participle": [
+      "grown"
+    ],
+    "fr": [
+      "grandir",
+      "pousser",
+      "cultiver"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP6",
+    "rank": 61,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "hang",
+    "base": "hang",
+    "past": [
+      "hung"
+    ],
+    "participle": [
+      "hung"
+    ],
+    "fr": [
+      "accrocher",
+      "suspendre"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GEMINI",
+    "rank": 49,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": "Régulier (hanged) au sens de \"pendre quelqu'un\".",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "have",
+    "base": "have",
+    "past": [
+      "had"
+    ],
+    "participle": [
+      "had"
+    ],
+    "fr": [
+      "avoir"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GEMINI",
+    "rank": 2,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "hear",
+    "base": "hear",
+    "past": [
+      "heard"
+    ],
+    "participle": [
+      "heard"
+    ],
+    "fr": [
+      "entendre"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GEMINI",
+    "rank": 19,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "hide",
+    "base": "hide",
+    "past": [
+      "hid"
+    ],
+    "participle": [
+      "hidden"
+    ],
+    "fr": [
+      "cacher",
+      "se cacher"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP9",
+    "rank": 63,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "hit",
+    "base": "hit",
+    "past": [
+      "hit"
+    ],
+    "participle": [
+      "hit"
+    ],
+    "fr": [
+      "frapper",
+      "taper"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": "TRIPLETS",
+    "rank": 35,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "hold",
+    "base": "hold",
+    "past": [
+      "held"
+    ],
+    "participle": [
+      "held"
+    ],
+    "fr": [
+      "tenir"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "LD",
+    "rank": 29,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "hurt",
+    "base": "hurt",
+    "past": [
+      "hurt"
+    ],
+    "participle": [
+      "hurt"
+    ],
+    "fr": [
+      "blesser",
+      "faire mal"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": "TRIPLETS",
+    "rank": 34,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "keep",
+    "base": "keep",
+    "past": [
+      "kept"
+    ],
+    "participle": [
+      "kept"
+    ],
+    "fr": [
+      "garder"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "TEA",
+    "rank": 21,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "kneel",
+    "base": "kneel",
+    "past": [
+      "knelt",
+      "kneeled"
+    ],
+    "participle": [
+      "knelt",
+      "kneeled"
+    ],
+    "fr": [
+      "s'agenouiller"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "knit",
+    "base": "knit",
+    "past": [
+      "knitted",
+      "knit"
+    ],
+    "participle": [
+      "knitted",
+      "knit"
+    ],
+    "fr": [
+      "tricoter"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "know",
+    "base": "know",
+    "past": [
+      "knew"
+    ],
+    "participle": [
+      "known"
+    ],
+    "fr": [
+      "savoir",
+      "connaître"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP6",
+    "rank": 5,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "lay",
+    "base": "lay",
+    "past": [
+      "laid"
+    ],
+    "participle": [
+      "laid"
+    ],
+    "fr": [
+      "poser",
+      "déposer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": 55,
+    "tier": 2,
+    "tags": [
+      "top100"
+    ],
+    "note": "À ne pas confondre avec le prétérit de \"lie\".",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "lead",
+    "base": "lead",
+    "past": [
+      "led"
+    ],
+    "participle": [
+      "led"
+    ],
+    "fr": [
+      "mener",
+      "diriger"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "RED",
+    "rank": 60,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "lean",
+    "base": "lean",
+    "past": [
+      "leant",
+      "leaned"
+    ],
+    "participle": [
+      "leant",
+      "leaned"
+    ],
+    "fr": [
+      "s'appuyer",
+      "se pencher"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": "\"leant\" est britannique.",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "leap",
+    "base": "leap",
+    "past": [
+      "leapt",
+      "leaped"
+    ],
+    "participle": [
+      "leapt",
+      "leaped"
+    ],
+    "fr": [
+      "bondir",
+      "sauter"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "learn",
+    "base": "learn",
+    "past": [
+      "learnt",
+      "learned"
+    ],
+    "participle": [
+      "learnt",
+      "learned"
+    ],
+    "fr": [
+      "apprendre"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": "\"learnt\" est britannique.",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "leave",
+    "base": "leave",
+    "past": [
+      "left"
+    ],
+    "participle": [
+      "left"
+    ],
+    "fr": [
+      "quitter",
+      "partir",
+      "laisser"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "TEA",
+    "rank": 20,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "lend",
+    "base": "lend",
+    "past": [
+      "lent"
+    ],
+    "participle": [
+      "lent"
+    ],
+    "fr": [
+      "prêter"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "TEA",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "let",
+    "base": "let",
+    "past": [
+      "let"
+    ],
+    "participle": [
+      "let"
+    ],
+    "fr": [
+      "laisser",
+      "louer"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": "TRIPLETS",
+    "rank": 25,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "lie",
+    "base": "lie",
+    "past": [
+      "lay"
+    ],
+    "participle": [
+      "lain"
+    ],
+    "fr": [
+      "être étendu",
+      "s'allonger"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "OUTSIDERS",
+    "rank": 52,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": "Régulier (lied) au sens de \"mentir\".",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "light",
+    "base": "light",
+    "past": [
+      "lit",
+      "lighted"
+    ],
+    "participle": [
+      "lit",
+      "lighted"
+    ],
+    "fr": [
+      "éclairer",
+      "allumer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GEMINI",
+    "rank": 32,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "lose",
+    "base": "lose",
+    "past": [
+      "lost"
+    ],
+    "participle": [
+      "lost"
+    ],
+    "fr": [
+      "perdre"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "TEA",
+    "rank": 41,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "make",
+    "base": "make",
+    "past": [
+      "made"
+    ],
+    "participle": [
+      "made"
+    ],
+    "fr": [
+      "faire",
+      "fabriquer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GEMINI",
+    "rank": 12,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "mean",
+    "base": "mean",
+    "past": [
+      "meant"
+    ],
+    "participle": [
+      "meant"
+    ],
+    "fr": [
+      "signifier",
+      "vouloir dire"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "TEA",
+    "rank": 23,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "meet",
+    "base": "meet",
+    "past": [
+      "met"
+    ],
+    "participle": [
+      "met"
+    ],
+    "fr": [
+      "rencontrer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "TEA",
+    "rank": 33,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "mislead",
+    "base": "mislead",
+    "past": [
+      "misled"
+    ],
+    "participle": [
+      "misled"
+    ],
+    "fr": [
+      "induire en erreur"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "misunderstand",
+    "base": "misunderstand",
+    "past": [
+      "misunderstood"
+    ],
+    "participle": [
+      "misunderstood"
+    ],
+    "fr": [
+      "mal comprendre"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "mow",
+    "base": "mow",
+    "past": [
+      "mowed"
+    ],
+    "participle": [
+      "mown",
+      "mowed"
+    ],
+    "fr": [
+      "tondre",
+      "faucher"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overcome",
+    "base": "overcome",
+    "past": [
+      "overcame"
+    ],
+    "participle": [
+      "overcome"
+    ],
+    "fr": [
+      "surmonter",
+      "vaincre"
+    ],
+    "pattern": "ABA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overhear",
+    "base": "overhear",
+    "past": [
+      "overheard"
+    ],
+    "participle": [
+      "overheard"
+    ],
+    "fr": [
+      "entendre par hasard"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "oversee",
+    "base": "oversee",
+    "past": [
+      "oversaw"
+    ],
+    "participle": [
+      "overseen"
+    ],
+    "fr": [
+      "superviser"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overtake",
+    "base": "overtake",
+    "past": [
+      "overtook"
+    ],
+    "participle": [
+      "overtaken"
+    ],
+    "fr": [
+      "dépasser",
+      "doubler"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "pay",
+    "base": "pay",
+    "past": [
+      "paid"
+    ],
+    "participle": [
+      "paid"
+    ],
+    "fr": [
+      "payer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GEMINI",
+    "rank": 51,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "prove",
+    "base": "prove",
+    "past": [
+      "proved"
+    ],
+    "participle": [
+      "proven",
+      "proved"
+    ],
+    "fr": [
+      "prouver"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": 75,
+    "tier": 2,
+    "tags": [
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "put",
+    "base": "put",
+    "past": [
+      "put"
+    ],
+    "participle": [
+      "put"
+    ],
+    "fr": [
+      "mettre",
+      "poser"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": "TRIPLETS",
+    "rank": 14,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "quit",
+    "base": "quit",
+    "past": [
+      "quit",
+      "quitted"
+    ],
+    "participle": [
+      "quit",
+      "quitted"
+    ],
+    "fr": [
+      "arrêter",
+      "quitter"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": "TRIPLETS",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "read",
+    "base": "read",
+    "past": [
+      "read"
+    ],
+    "participle": [
+      "read"
+    ],
+    "fr": [
+      "lire"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": "RED",
+    "rank": 16,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": "Le prétérit et le participe s'écrivent \"read\" mais se prononcent [red].",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "rebuild",
+    "base": "rebuild",
+    "past": [
+      "rebuilt"
+    ],
+    "participle": [
+      "rebuilt"
+    ],
+    "fr": [
+      "reconstruire"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "repay",
+    "base": "repay",
+    "past": [
+      "repaid"
+    ],
+    "participle": [
+      "repaid"
+    ],
+    "fr": [
+      "rembourser"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "retell",
+    "base": "retell",
+    "past": [
+      "retold"
+    ],
+    "participle": [
+      "retold"
+    ],
+    "fr": [
+      "raconter à nouveau"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "rewrite",
+    "base": "rewrite",
+    "past": [
+      "rewrote"
+    ],
+    "participle": [
+      "rewritten"
+    ],
+    "fr": [
+      "réécrire"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "rid",
+    "base": "rid",
+    "past": [
+      "rid"
+    ],
+    "participle": [
+      "rid"
+    ],
+    "fr": [
+      "débarrasser"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "ride",
+    "base": "ride",
+    "past": [
+      "rode"
+    ],
+    "participle": [
+      "ridden"
+    ],
+    "fr": [
+      "monter (à cheval, à vélo)"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": 87,
+    "tier": 2,
+    "tags": [
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "ring",
+    "base": "ring",
+    "past": [
+      "rang"
+    ],
+    "participle": [
+      "rung"
+    ],
+    "fr": [
+      "sonner"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP8",
+    "rank": 62,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "rise",
+    "base": "rise",
+    "past": [
+      "rose"
+    ],
+    "participle": [
+      "risen"
+    ],
+    "fr": [
+      "s'élever",
+      "se lever"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP9",
+    "rank": 57,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "run",
+    "base": "run",
+    "past": [
+      "ran"
+    ],
+    "participle": [
+      "run"
+    ],
+    "fr": [
+      "courir"
+    ],
+    "pattern": "ABA",
+    "huitoGroup": "GROUP8",
+    "rank": 24,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "say",
+    "base": "say",
+    "past": [
+      "said"
+    ],
+    "participle": [
+      "said"
+    ],
+    "fr": [
+      "dire"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "RED",
+    "rank": 3,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": "\"said\" se prononce [sed].",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "see",
+    "base": "see",
+    "past": [
+      "saw"
+    ],
+    "participle": [
+      "seen"
+    ],
+    "fr": [
+      "voir"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "OUTSIDERS",
+    "rank": 9,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "seek",
+    "base": "seek",
+    "past": [
+      "sought"
+    ],
+    "participle": [
+      "sought"
+    ],
+    "fr": [
+      "chercher",
+      "rechercher"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GHT",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "sell",
+    "base": "sell",
+    "past": [
+      "sold"
+    ],
+    "participle": [
+      "sold"
+    ],
+    "fr": [
+      "vendre"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "LD",
+    "rank": 77,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "send",
+    "base": "send",
+    "past": [
+      "sent"
+    ],
+    "participle": [
+      "sent"
+    ],
+    "fr": [
+      "envoyer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "TEA",
+    "rank": 47,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "set",
+    "base": "set",
+    "past": [
+      "set"
+    ],
+    "participle": [
+      "set"
+    ],
+    "fr": [
+      "poser",
+      "régler"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": "TRIPLETS",
+    "rank": 26,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "sew",
+    "base": "sew",
+    "past": [
+      "sewed"
+    ],
+    "participle": [
+      "sewn",
+      "sewed"
+    ],
+    "fr": [
+      "coudre"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "shake",
+    "base": "shake",
+    "past": [
+      "shook"
+    ],
+    "participle": [
+      "shaken"
+    ],
+    "fr": [
+      "secouer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP9",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "shed",
+    "base": "shed",
+    "past": [
+      "shed"
+    ],
+    "participle": [
+      "shed"
+    ],
+    "fr": [
+      "perdre (poils, larmes)",
+      "verser"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "shine",
+    "base": "shine",
+    "past": [
+      "shone"
+    ],
+    "participle": [
+      "shone"
+    ],
+    "fr": [
+      "briller"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": "Régulier (shined) au sens de \"cirer, faire briller\".",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "shoot",
+    "base": "shoot",
+    "past": [
+      "shot"
+    ],
+    "participle": [
+      "shot"
+    ],
+    "fr": [
+      "tirer (arme)",
+      "shooter"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GEMINI",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "show",
+    "base": "show",
+    "past": [
+      "showed"
+    ],
+    "participle": [
+      "shown",
+      "showed"
+    ],
+    "fr": [
+      "montrer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "OUTSIDERS",
+    "rank": 42,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "shrink",
+    "base": "shrink",
+    "past": [
+      "shrank",
+      "shrunk"
+    ],
+    "participle": [
+      "shrunk"
+    ],
+    "fr": [
+      "rétrécir",
+      "diminuer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP8",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "shut",
+    "base": "shut",
+    "past": [
+      "shut"
+    ],
+    "participle": [
+      "shut"
+    ],
+    "fr": [
+      "fermer"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": "TRIPLETS",
+    "rank": 44,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "sing",
+    "base": "sing",
+    "past": [
+      "sang"
+    ],
+    "participle": [
+      "sung"
+    ],
+    "fr": [
+      "chanter"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP8",
+    "rank": 83,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "sink",
+    "base": "sink",
+    "past": [
+      "sank",
+      "sunk"
+    ],
+    "participle": [
+      "sunk"
+    ],
+    "fr": [
+      "couler",
+      "sombrer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP8",
+    "rank": 95,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "sit",
+    "base": "sit",
+    "past": [
+      "sat"
+    ],
+    "participle": [
+      "sat"
+    ],
+    "fr": [
+      "s'asseoir"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GEMINI",
+    "rank": 22,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "slay",
+    "base": "slay",
+    "past": [
+      "slew"
+    ],
+    "participle": [
+      "slain"
+    ],
+    "fr": [
+      "tuer",
+      "terrasser"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "sleep",
+    "base": "sleep",
+    "past": [
+      "slept"
+    ],
+    "participle": [
+      "slept"
+    ],
+    "fr": [
+      "dormir"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "TEA",
+    "rank": 58,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "slide",
+    "base": "slide",
+    "past": [
+      "slid"
+    ],
+    "participle": [
+      "slid"
+    ],
+    "fr": [
+      "glisser"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GEMINI",
+    "rank": 79,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "sling",
+    "base": "sling",
+    "past": [
+      "slung"
+    ],
+    "participle": [
+      "slung"
+    ],
+    "fr": [
+      "lancer",
+      "suspendre"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "smell",
+    "base": "smell",
+    "past": [
+      "smelt",
+      "smelled"
+    ],
+    "participle": [
+      "smelt",
+      "smelled"
+    ],
+    "fr": [
+      "sentir (odorat)"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "TEA",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": "\"smelt\" est britannique.",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "sow",
+    "base": "sow",
+    "past": [
+      "sowed"
+    ],
+    "participle": [
+      "sown",
+      "sowed"
+    ],
+    "fr": [
+      "semer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "speak",
+    "base": "speak",
+    "past": [
+      "spoke"
+    ],
+    "participle": [
+      "spoken"
+    ],
+    "fr": [
+      "parler"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": 31,
+    "tier": 1,
+    "tags": [
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "speed",
+    "base": "speed",
+    "past": [
+      "sped",
+      "speeded"
+    ],
+    "participle": [
+      "sped",
+      "speeded"
+    ],
+    "fr": [
+      "aller vite",
+      "accélérer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": 92,
+    "tier": 2,
+    "tags": [
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "spell",
+    "base": "spell",
+    "past": [
+      "spelt",
+      "spelled"
+    ],
+    "participle": [
+      "spelt",
+      "spelled"
+    ],
+    "fr": [
+      "épeler"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": "\"spelt\" est britannique.",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "spend",
+    "base": "spend",
+    "past": [
+      "spent"
+    ],
+    "participle": [
+      "spent"
+    ],
+    "fr": [
+      "dépenser",
+      "passer (du temps)"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": 50,
+    "tier": 1,
+    "tags": [
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "spill",
+    "base": "spill",
+    "past": [
+      "spilt",
+      "spilled"
+    ],
+    "participle": [
+      "spilt",
+      "spilled"
+    ],
+    "fr": [
+      "renverser (un liquide)"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "TEA",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "spin",
+    "base": "spin",
+    "past": [
+      "spun"
+    ],
+    "participle": [
+      "spun"
+    ],
+    "fr": [
+      "tourner",
+      "filer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GEMINI",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "spit",
+    "base": "spit",
+    "past": [
+      "spat",
+      "spit"
+    ],
+    "participle": [
+      "spat",
+      "spit"
+    ],
+    "fr": [
+      "cracher"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "TRIPLETS",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": "\"spit\" au prétérit est surtout américain.",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "split",
+    "base": "split",
+    "past": [
+      "split"
+    ],
+    "participle": [
+      "split"
+    ],
+    "fr": [
+      "fendre",
+      "séparer"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": "TRIPLETS",
+    "rank": 88,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "spoil",
+    "base": "spoil",
+    "past": [
+      "spoilt",
+      "spoiled"
+    ],
+    "participle": [
+      "spoilt",
+      "spoiled"
+    ],
+    "fr": [
+      "gâcher",
+      "gâter"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "TEA",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "spread",
+    "base": "spread",
+    "past": [
+      "spread"
+    ],
+    "participle": [
+      "spread"
+    ],
+    "fr": [
+      "étaler",
+      "répandre"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": "TRIPLETS",
+    "rank": 72,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "stand",
+    "base": "stand",
+    "past": [
+      "stood"
+    ],
+    "participle": [
+      "stood"
+    ],
+    "fr": [
+      "se tenir debout",
+      "supporter"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GEMINI",
+    "rank": 28,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "steal",
+    "base": "steal",
+    "past": [
+      "stole"
+    ],
+    "participle": [
+      "stolen"
+    ],
+    "fr": [
+      "voler",
+      "dérober"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP9",
+    "rank": 80,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "stick",
+    "base": "stick",
+    "past": [
+      "stuck"
+    ],
+    "participle": [
+      "stuck"
+    ],
+    "fr": [
+      "coller",
+      "planter"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GEMINI",
+    "rank": 71,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "sting",
+    "base": "sting",
+    "past": [
+      "stung"
+    ],
+    "participle": [
+      "stung"
+    ],
+    "fr": [
+      "piquer (insecte)"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GEMINI",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "stink",
+    "base": "stink",
+    "past": [
+      "stank",
+      "stunk"
+    ],
+    "participle": [
+      "stunk"
+    ],
+    "fr": [
+      "puer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "stride",
+    "base": "stride",
+    "past": [
+      "strode"
+    ],
+    "participle": [
+      "stridden"
+    ],
+    "fr": [
+      "marcher à grands pas"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "strike",
+    "base": "strike",
+    "past": [
+      "struck"
+    ],
+    "participle": [
+      "struck",
+      "stricken"
+    ],
+    "fr": [
+      "frapper",
+      "heurter"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GEMINI",
+    "rank": 85,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": "\"stricken\" est réservé au sens figuré (affligé, frappé par).",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "strive",
+    "base": "strive",
+    "past": [
+      "strove",
+      "strived"
+    ],
+    "participle": [
+      "striven",
+      "strived"
+    ],
+    "fr": [
+      "s'efforcer de"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "swear",
+    "base": "swear",
+    "past": [
+      "swore"
+    ],
+    "participle": [
+      "sworn"
+    ],
+    "fr": [
+      "jurer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": 97,
+    "tier": 2,
+    "tags": [
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "sweat",
+    "base": "sweat",
+    "past": [
+      "sweat",
+      "sweated"
+    ],
+    "participle": [
+      "sweat",
+      "sweated"
+    ],
+    "fr": [
+      "transpirer"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": 82,
+    "tier": 2,
+    "tags": [
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "sweep",
+    "base": "sweep",
+    "past": [
+      "swept"
+    ],
+    "participle": [
+      "swept"
+    ],
+    "fr": [
+      "balayer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "TEA",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "swell",
+    "base": "swell",
+    "past": [
+      "swelled"
+    ],
+    "participle": [
+      "swollen",
+      "swelled"
+    ],
+    "fr": [
+      "gonfler",
+      "enfler"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "swim",
+    "base": "swim",
+    "past": [
+      "swam"
+    ],
+    "participle": [
+      "swum"
+    ],
+    "fr": [
+      "nager"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP8",
+    "rank": 100,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "swing",
+    "base": "swing",
+    "past": [
+      "swung"
+    ],
+    "participle": [
+      "swung"
+    ],
+    "fr": [
+      "balancer",
+      "se balancer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": 94,
+    "tier": 2,
+    "tags": [
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "take",
+    "base": "take",
+    "past": [
+      "took"
+    ],
+    "participle": [
+      "taken"
+    ],
+    "fr": [
+      "prendre"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": 10,
+    "tier": 1,
+    "tags": [
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "teach",
+    "base": "teach",
+    "past": [
+      "taught"
+    ],
+    "participle": [
+      "taught"
+    ],
+    "fr": [
+      "enseigner"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GHT",
+    "rank": 67,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "tear",
+    "base": "tear",
+    "past": [
+      "tore"
+    ],
+    "participle": [
+      "torn"
+    ],
+    "fr": [
+      "déchirer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": 98,
+    "tier": 2,
+    "tags": [
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "tell",
+    "base": "tell",
+    "past": [
+      "told"
+    ],
+    "participle": [
+      "told"
+    ],
+    "fr": [
+      "dire",
+      "raconter"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "LD",
+    "rank": 13,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "think",
+    "base": "think",
+    "past": [
+      "thought"
+    ],
+    "participle": [
+      "thought"
+    ],
+    "fr": [
+      "penser"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GHT",
+    "rank": 11,
+    "tier": 1,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "thrive",
+    "base": "thrive",
+    "past": [
+      "thrived",
+      "throve"
+    ],
+    "participle": [
+      "thrived",
+      "thriven"
+    ],
+    "fr": [
+      "prospérer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "throw",
+    "base": "throw",
+    "past": [
+      "threw"
+    ],
+    "participle": [
+      "thrown"
+    ],
+    "fr": [
+      "jeter",
+      "lancer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP6",
+    "rank": 64,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "thrust",
+    "base": "thrust",
+    "past": [
+      "thrust"
+    ],
+    "participle": [
+      "thrust"
+    ],
+    "fr": [
+      "enfoncer",
+      "pousser"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "tread",
+    "base": "tread",
+    "past": [
+      "trod"
+    ],
+    "participle": [
+      "trodden",
+      "trod"
+    ],
+    "fr": [
+      "marcher",
+      "fouler"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "undergo",
+    "base": "undergo",
+    "past": [
+      "underwent"
+    ],
+    "participle": [
+      "undergone"
+    ],
+    "fr": [
+      "subir"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "understand",
+    "base": "understand",
+    "past": [
+      "understood"
+    ],
+    "participle": [
+      "understood"
+    ],
+    "fr": [
+      "comprendre"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GEMINI",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "undertake",
+    "base": "undertake",
+    "past": [
+      "undertook"
+    ],
+    "participle": [
+      "undertaken"
+    ],
+    "fr": [
+      "entreprendre"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "uphold",
+    "base": "uphold",
+    "past": [
+      "upheld"
+    ],
+    "participle": [
+      "upheld"
+    ],
+    "fr": [
+      "maintenir",
+      "faire respecter"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "upset",
+    "base": "upset",
+    "past": [
+      "upset"
+    ],
+    "participle": [
+      "upset"
+    ],
+    "fr": [
+      "contrarier",
+      "bouleverser"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": "TRIPLETS",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "wake",
+    "base": "wake",
+    "past": [
+      "woke"
+    ],
+    "participle": [
+      "woken"
+    ],
+    "fr": [
+      "(se) réveiller"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": 84,
+    "tier": 2,
+    "tags": [
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "wear",
+    "base": "wear",
+    "past": [
+      "wore"
+    ],
+    "participle": [
+      "worn"
+    ],
+    "fr": [
+      "porter (un vêtement)"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": 54,
+    "tier": 2,
+    "tags": [
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "weave",
+    "base": "weave",
+    "past": [
+      "wove"
+    ],
+    "participle": [
+      "woven"
+    ],
+    "fr": [
+      "tisser"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "wed",
+    "base": "wed",
+    "past": [
+      "wed",
+      "wedded"
+    ],
+    "participle": [
+      "wed",
+      "wedded"
+    ],
+    "fr": [
+      "épouser"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "weep",
+    "base": "weep",
+    "past": [
+      "wept"
+    ],
+    "participle": [
+      "wept"
+    ],
+    "fr": [
+      "pleurer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "wet",
+    "base": "wet",
+    "past": [
+      "wet",
+      "wetted"
+    ],
+    "participle": [
+      "wet",
+      "wetted"
+    ],
+    "fr": [
+      "mouiller"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": 69,
+    "tier": 2,
+    "tags": [
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "win",
+    "base": "win",
+    "past": [
+      "won"
+    ],
+    "participle": [
+      "won"
+    ],
+    "fr": [
+      "gagner"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": "GEMINI",
+    "rank": 90,
+    "tier": 2,
+    "tags": [
+      "huito",
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "wind",
+    "base": "wind",
+    "past": [
+      "wound"
+    ],
+    "participle": [
+      "wound"
+    ],
+    "fr": [
+      "enrouler",
+      "remonter (montre)"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": "\"wind\" (vent) se prononce différemment.",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "withdraw",
+    "base": "withdraw",
+    "past": [
+      "withdrew"
+    ],
+    "participle": [
+      "withdrawn"
+    ],
+    "fr": [
+      "retirer",
+      "se retirer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": "GROUP6",
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "huito"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "withhold",
+    "base": "withhold",
+    "past": [
+      "withheld"
+    ],
+    "participle": [
+      "withheld"
+    ],
+    "fr": [
+      "retenir",
+      "refuser d'accorder"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "withstand",
+    "base": "withstand",
+    "past": [
+      "withstood"
+    ],
+    "participle": [
+      "withstood"
+    ],
+    "fr": [
+      "résister à"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "write",
+    "base": "write",
+    "past": [
+      "wrote"
+    ],
+    "participle": [
+      "written"
+    ],
+    "fr": [
+      "écrire"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": 37,
+    "tier": 1,
+    "tags": [
+      "top100"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  }
+]
