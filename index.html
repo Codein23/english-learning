@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/english-learning/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta
+      name="description"
+      content="Entraînement aux verbes irréguliers anglais : 180 verbes, 9 modes de quiz, progression hors ligne."
+    />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#232323" media="(prefers-color-scheme: dark)" />
+    <title>Verbes irréguliers anglais — entraînement</title>
+    <script>
+      // Applique le thème avant le premier paint : évite le flash de thème clair.
+      (function () {
+        try {
+          var stored = localStorage.getItem('el:v1:settings');
+          var theme = stored ? JSON.parse(stored).state?.theme : 'system';
+          var dark =
+            theme === 'dark' ||
+            ((!theme || theme === 'system') &&
+              window.matchMedia('(prefers-color-scheme: dark)').matches);
+          document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+        } catch (e) {
+          document.documentElement.dataset.theme = 'light';
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
