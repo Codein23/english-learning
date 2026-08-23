@@ -87,6 +87,48 @@ Clés `el:v1:*` dans `localStorage`, via `src/lib/storage.ts`.
 Le stockage indisponible (mode privé, quota) n'interrompt jamais l'application :
 un avertissement s'affiche dans `#/settings` et la session continue en mémoire.
 
+## Synchronisation multi-appareils
+
+Optionnelle et désactivée tant que la variable de build `VITE_SYNC_URL` est vide.
+
+Le compte n'est ni un email ni un mot de passe : c'est une **clé de synchronisation**
+de 32 octets, générée sur le premier appareil et recopiée sur les suivants. Trois
+valeurs en sont dérivées séparément — identifiant de compte, jeton d'authentification,
+clé de chiffrement — et la clé elle-même ne quitte jamais le navigateur.
+
+La progression est chiffrée en AES-256-GCM **avant** l'envoi : le serveur stocke un
+blob opaque, ne connaît que le SHA-256 du jeton, et ne peut donc ni lire les données
+ni retrouver la clé. Perdre la clé sans l'avoir recopiée = perdre l'accès aux données
+distantes, définitivement. L'interface le dit au moment où elle affiche la clé.
+
+Deux appareils hors ligne qui divergent sont réconciliés par `src/sync/merge.ts` :
+fusion commutative et idempotente, l'entrée la plus récemment vue l'emporte, les
+compteurs prennent le maximum, les sessions sont réunies sans doublon. Les favoris
+sont réunis — retirer un favori d'un côté ne le retire pas de l'autre, c'est la seule
+concession faite à la conservation des données.
+
+Backend : `worker/` (Cloudflare Worker + base D1).
+
+```bash
+cd worker && npx wrangler login
+```
+
+```bash
+npx wrangler d1 create english-learning
+```
+
+Reporter le `database_id` obtenu dans `worker/wrangler.toml`, puis :
+
+```bash
+npm run db:init && npm run deploy
+```
+
+Enfin, déclarer l'URL du Worker comme variable de dépôt pour que le build l'injecte :
+
+```bash
+gh variable set SYNC_URL --body "https://english-learning-sync.<sous-domaine>.workers.dev"
+```
+
 ## Déploiement
 
 Push sur `main` → GitHub Actions (`.github/workflows/deploy.yml`) exécute

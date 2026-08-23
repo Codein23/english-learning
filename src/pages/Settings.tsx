@@ -2,6 +2,7 @@ import { useId, useState } from 'react';
 import { AlertTriangle, Check, Info } from 'lucide-react';
 import { PageTitle } from '@/components/ui/PageTitle';
 import { Button } from '@/components/ui/Button';
+import { SyncSettings } from '@/components/SyncSettings';
 import { isPersistenceAvailable } from '@/lib/storage';
 import { useSettings, type Accent, type ThemePreference } from '@/store/settings';
 import { useProgress } from '@/store/progress';
@@ -93,6 +94,8 @@ export function SettingsPage() {
           La banque audio et l'export/import de progression arrivent avec les lots suivants.
         </p>
       </Section>
+
+      <SyncSettings />
 
       <Section title="Données">
         {confirmingReset ? (

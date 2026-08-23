@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useEffect, useMemo, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AlertTriangle, RotateCcw } from 'lucide-react';
 import { PageTitle } from '@/components/ui/PageTitle';
@@ -9,6 +9,7 @@ import { getVerb } from '@/data/verbs';
 import { GROUP_META } from '@/lib/groups';
 import { formatCount, formatPercent, formatSeconds, formatVariants } from '@/lib/format';
 import { sessionTotals, useSession } from '@/store/session';
+import { useSync } from '@/store/sync';
 import { MODE_LABEL } from '@/quiz/types';
 import type { HuitoGroup, Pattern } from '@/data/schema';
 
@@ -20,6 +21,17 @@ export function QuizResultPage() {
   const start = useSession((state) => state.start);
 
   const totals = useMemo(() => sessionTotals(attempts), [attempts]);
+
+  // Fin de session : c'est le moment naturel pour pousser la progression.
+  // Silencieux et non bloquant — un échec réseau n'a aucun effet visible ici,
+  // l'état de la synchronisation se lit dans les réglages.
+  const synced = useRef(false);
+  useEffect(() => {
+    if (synced.current || attempts.length === 0) return;
+    synced.current = true;
+    const { key, syncNow } = useSync.getState();
+    if (key !== null) void syncNow();
+  }, [attempts.length]);
 
   if (attempts.length === 0) {
     return (

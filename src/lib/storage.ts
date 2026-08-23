@@ -11,7 +11,7 @@ import type { PersistStorage, StorageValue } from 'zustand/middleware';
 export const STORAGE_VERSION = 1 as const;
 const PREFIX = `el:v${STORAGE_VERSION}:` as const;
 
-export type StorageKey = 'settings' | 'progress' | 'session' | 'lastQuizConfig';
+export type StorageKey = 'settings' | 'progress' | 'session' | 'lastQuizConfig' | 'sync';
 
 export function storageKey(key: StorageKey): string {
   return `${PREFIX}${key}`;

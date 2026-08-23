@@ -32,6 +32,10 @@ jobs:
       - run: npm run typecheck
       - run: npm test
       - run: npm run build
+        env:
+          # URL du Worker de synchronisation. Variable de dépôt : vide tant que le
+          # Worker n'est pas déployé, auquel cas la synchronisation reste masquée.
+          VITE_SYNC_URL: ${{ vars.SYNC_URL }}
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

@@ -5,7 +5,9 @@ import reactHooks from 'eslint-plugin-react-hooks';
 import reactRefresh from 'eslint-plugin-react-refresh';
 
 export default tseslint.config(
-  { ignores: ['dist', 'dev-dist', 'node_modules', 'src/data/verbs.json'] },
+  // `worker/` a sa propre configuration TypeScript (runtime Cloudflare) et son
+  // propre `tsc --noEmit` : le linter du site ne doit pas tenter de le typer.
+  { ignores: ['dist', 'dev-dist', 'node_modules', 'worker', 'src/data/verbs.json'] },
   {
     extends: [js.configs.recommended, ...tseslint.configs.recommendedTypeChecked],
     files: ['**/*.{ts,tsx}'],

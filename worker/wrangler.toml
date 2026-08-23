@@ -1,0 +1,16 @@
+name = "english-learning-sync"
+main = "src/index.ts"
+compatibility_date = "2026-08-01"
+
+# Origine autorisée en CORS : le site GitHub Pages, et rien d'autre.
+[vars]
+ALLOWED_ORIGIN = "https://codein23.github.io"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "english-learning"
+# Renseigné par `wrangler d1 create english-learning`.
+database_id = "TO_BE_FILLED"
+
+[observability]
+enabled = true
