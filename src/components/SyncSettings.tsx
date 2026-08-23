@@ -53,6 +53,13 @@ export function SyncSettings() {
     }
   };
 
+  // La clé fraîchement créée est affichée **au-dessus** des deux branches :
+  // sinon l'enregistrement de la clé fait basculer la vue et l'avertissement
+  // disparaît avant même d'avoir été lu.
+  const freshKeyBlock = freshKey ? (
+    <FreshKey value={freshKey} copied={copied} onCopy={() => void copy(freshKey)} onDismiss={() => setFreshKey(null)} />
+  ) : null;
+
   if (key === null) {
     return (
       <Section>
@@ -114,7 +121,7 @@ export function SyncSettings() {
           </div>
         </form>
 
-        {freshKey ? <FreshKey value={freshKey} copied={copied} onCopy={() => void copy(freshKey)} /> : null}
+        {freshKeyBlock}
         <ErrorLine message={lastError} />
       </Section>
     );
@@ -122,6 +129,8 @@ export function SyncSettings() {
 
   return (
     <Section>
+      {freshKeyBlock}
+
       <div className="rounded-[var(--radius-card)] border border-border bg-surface px-4 py-4">
         <p className="flex items-center gap-2 text-sm font-medium">
           <Check aria-hidden="true" className="size-4 text-success-text" strokeWidth={2} />
@@ -205,10 +214,12 @@ function FreshKey({
   value,
   copied,
   onCopy,
+  onDismiss,
 }: {
   value: string;
   copied: boolean;
   onCopy: () => void;
+  onDismiss: () => void;
 }) {
   return (
     <div className="space-y-3 rounded-[var(--radius-card)] border border-warning/40 bg-warning-subtle px-4 py-4">
@@ -224,10 +235,15 @@ function FreshKey({
       <code className="block rounded-[var(--radius-field)] bg-bg px-3 py-2 font-mono text-sm break-all select-all">
         {value}
       </code>
-      <Button size="sm" onClick={onCopy}>
-        <Copy aria-hidden="true" className="size-4" strokeWidth={1.75} />
-        {copied ? 'Clé copiée' : 'Copier la clé'}
-      </Button>
+      <div className="flex flex-wrap gap-2">
+        <Button size="sm" onClick={onCopy}>
+          <Copy aria-hidden="true" className="size-4" strokeWidth={1.75} />
+          {copied ? 'Clé copiée' : 'Copier la clé'}
+        </Button>
+        <Button size="sm" variant="ghost" onClick={onDismiss}>
+          Je l'ai mise en lieu sûr
+        </Button>
+      </div>
     </div>
   );
 }
