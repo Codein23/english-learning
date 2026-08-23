@@ -9,8 +9,7 @@ ALLOWED_ORIGIN = "https://codein23.github.io"
 [[d1_databases]]
 binding = "DB"
 database_name = "english-learning"
-# Renseigné par `wrangler d1 create english-learning`.
-database_id = "TO_BE_FILLED"
+database_id = "c44cee87-6fcd-4055-a2ab-904066f33c2f"
 
 [observability]
 enabled = true
