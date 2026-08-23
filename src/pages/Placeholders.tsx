@@ -1,35 +1,12 @@
-import { BarChart3, Music4 } from 'lucide-react';
+import { Music4 } from 'lucide-react';
 import { PageTitle } from '@/components/ui/PageTitle';
 import { EmptyState } from '@/components/ui/EmptyState';
-import { ButtonLink } from '@/components/ui/Button';
 
 /**
- * Écrans du lot suivant. Ils existent déjà comme routes pour que la navigation,
- * les deep-links et l'état actif de la barre soient testables dès maintenant —
- * jamais de lien mort, jamais d'écran vide muet.
+ * Écran du lot audio. La route existe déjà pour que la navigation, les
+ * deep-links et l'état actif de la barre restent testables — jamais de lien
+ * mort, jamais d'écran vide muet.
  */
-
-export function StatsPage() {
-  return (
-    <div className="space-y-6">
-      <PageTitle
-        title="Statistiques"
-        description="Courbe de précision, assiduité, verbes les plus ratés, répartition par schéma et par groupe."
-      />
-      <EmptyState
-        icon={BarChart3}
-        title="Aucune donnée à afficher pour l'instant"
-        description="Les statistiques se construisent à partir des sessions terminées. Elles apparaîtront ici dès que le moteur de quiz sera livré."
-        action={
-          <ButtonLink to="/quiz" size="sm">
-            Voir l'entraînement
-          </ButtonLink>
-        }
-      />
-    </div>
-  );
-}
-
 export function CreditsPage() {
   return (
     <div className="space-y-6">
