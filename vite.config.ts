@@ -17,7 +17,7 @@ export default defineConfig({
         name: 'English Learning — Verbes irréguliers',
         short_name: 'Verbes irréguliers',
         description:
-          "Entraînement intensif aux verbes irréguliers anglais : 180 verbes, 9 modes de quiz, progression hors ligne.",
+          "Entraînement intensif aux verbes irréguliers anglais : 438 verbes, 9 modes de quiz, progression hors ligne.",
         lang: 'fr',
         start_url: '/english-learning/',
         scope: '/english-learning/',

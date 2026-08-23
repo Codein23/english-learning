@@ -50,7 +50,7 @@ Documents de référence à la racine :
 
 ## Dataset
 
-`verbs.json` (180 verbes) est **figé** et copié tel quel dans `src/data/verbs.json`.
+`verbs.json` (438 verbes) est généré par fusion et copié dans `src/data/verbs.json`.
 Il est validé par un schéma zod (`src/data/schema.ts`) et par `src/data/schema.test.ts`,
 qui vérifient en plus :
 
@@ -59,11 +59,25 @@ qui vérifient en plus :
 - la cohérence du `pattern` avec la 1ʳᵉ variante de chaque colonne,
 - la couverture complète et sans doublon des 100 rangs du top 100.
 
+### Composition
+
+| Origine | Verbes |
+|---|---|
+| Liste exhaustive *by Huito* (`scripts/sources/huito-exhaustive.txt`) | 438 |
+| dont métadonnées pédagogiques du tableau coloré (`huitoGroup`) | 108 |
+| dont rangs de fréquence englishpage (`rank`, tiers 1 et 2) | 100 |
+| Tier 3 (hors top 100, dérivés rares compris) | 338 |
+
 ### Mettre à jour le dataset
 
-1. Remplacer `verbs.json` à la racine, puis le recopier dans `src/data/verbs.json`.
-2. Lancer `npm test` : toute incohérence fait échouer le build avant le déploiement.
-3. Documenter l'arbitrage dans `REPORT.md`.
+1. Éditer `scripts/sources/huito-exhaustive.txt` (une ligne par verbe, `base | prétérit | participe | traduction`).
+2. `npm run merge:dataset` pour simuler, puis `npm run merge:dataset -- --write` pour appliquer.
+   La fusion ne modifie jamais un verbe déjà arbitré : elle conserve son ordre de
+   variantes, son groupe, son rang, son tier et sa note, et se contente d'ajouter
+   les variantes supplémentaires de la source. Tout est journalisé dans
+   `scripts/dataset-report.md`.
+3. Lancer `npm test` : toute incohérence fait échouer le build avant le déploiement.
+4. Documenter l'arbitrage dans `REPORT.md`.
 
 Les champs `ipa` et `example` peuvent rester `null` : ils ne bloquent jamais le rendu.
 

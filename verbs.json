@@ -1,5 +1,54 @@
 [
   {
+    "id": "abide",
+    "base": "abide",
+    "past": [
+      "abided",
+      "abode"
+    ],
+    "participle": [
+      "abided"
+    ],
+    "fr": [
+      "Habiter"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "alight",
+    "base": "alight",
+    "past": [
+      "alighted",
+      "alit"
+    ],
+    "participle": [
+      "alighted",
+      "alit"
+    ],
+    "fr": [
+      "Descendre"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
     "id": "arise",
     "base": "arise",
     "past": [
@@ -16,7 +65,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -25,10 +76,12 @@
     "id": "awake",
     "base": "awake",
     "past": [
-      "awoke"
+      "awoke",
+      "awakened"
     ],
     "participle": [
-      "awoken"
+      "awoken",
+      "awakened"
     ],
     "fr": [
       "(se) réveiller"
@@ -37,7 +90,56 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "backbite",
+    "base": "backbite",
+    "past": [
+      "backbit"
+    ],
+    "participle": [
+      "backbitten"
+    ],
+    "fr": [
+      "Médire"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "backslide",
+    "base": "backslide",
+    "past": [
+      "backslid"
+    ],
+    "participle": [
+      "backslidden",
+      "backslid"
+    ],
+    "fr": [
+      "Rechuter"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -61,7 +163,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": "\"was\" au singulier, \"were\" au pluriel et avec \"you\".",
     "ipa": null,
@@ -86,7 +189,8 @@
     "rank": 89,
     "tier": 2,
     "tags": [
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": "\"born\" uniquement pour la naissance (be born).",
     "ipa": null,
@@ -110,7 +214,8 @@
     "rank": 66,
     "tier": 2,
     "tags": [
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -133,7 +238,55 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "befall",
+    "base": "befall",
+    "past": [
+      "befell"
+    ],
+    "participle": [
+      "befallen"
+    ],
+    "fr": [
+      "S'avérer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "beget",
+    "base": "beget",
+    "past": [
+      "begat",
+      "begot"
+    ],
+    "participle": [
+      "begotten"
+    ],
+    "fr": [
+      "Engendrer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -157,7 +310,31 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "behold",
+    "base": "behold",
+    "past": [
+      "beheld"
+    ],
+    "participle": [
+      "beheld"
+    ],
+    "fr": [
+      "Contempler"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -183,7 +360,105 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "bereave",
+    "base": "bereave",
+    "past": [
+      "bereaved",
+      "bereft"
+    ],
+    "participle": [
+      "bereaved",
+      "bereft"
+    ],
+    "fr": [
+      "Priver"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "beseech",
+    "base": "beseech",
+    "past": [
+      "besought",
+      "beseeched"
+    ],
+    "participle": [
+      "besought",
+      "beseeched"
+    ],
+    "fr": [
+      "Supplier"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "beset",
+    "base": "beset",
+    "past": [
+      "beset"
+    ],
+    "participle": [
+      "beset"
+    ],
+    "fr": [
+      "Assiéger"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "bestrew",
+    "base": "bestrew",
+    "past": [
+      "bestrewed"
+    ],
+    "participle": [
+      "bestrewn",
+      "bestrewed"
+    ],
+    "fr": [
+      "Parsemer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -209,7 +484,54 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "betake",
+    "base": "betake",
+    "past": [
+      "betook"
+    ],
+    "participle": [
+      "betaken"
+    ],
+    "fr": [
+      "Se diriger"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "bethink",
+    "base": "bethink",
+    "past": [
+      "bethought"
+    ],
+    "participle": [
+      "bethought"
+    ],
+    "fr": [
+      "Se souvenir"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -219,10 +541,12 @@
     "id": "bid",
     "base": "bid",
     "past": [
-      "bid"
+      "bid",
+      "bade"
     ],
     "participle": [
-      "bid"
+      "bid",
+      "bidden"
     ],
     "fr": [
       "enchérir",
@@ -232,7 +556,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -254,7 +580,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -277,7 +605,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -300,7 +629,8 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -324,7 +654,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -349,7 +680,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -372,7 +704,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -395,7 +729,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -405,10 +740,12 @@
     "id": "broadcast",
     "base": "broadcast",
     "past": [
-      "broadcast"
+      "broadcast",
+      "broadcasted"
     ],
     "participle": [
-      "broadcast"
+      "broadcast",
+      "broadcasted"
     ],
     "fr": [
       "diffuser",
@@ -419,7 +756,32 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "browbeat",
+    "base": "browbeat",
+    "past": [
+      "browbeat"
+    ],
+    "participle": [
+      "browbeaten",
+      "browbeat"
+    ],
+    "fr": [
+      "Intimider"
+    ],
+    "pattern": "AAB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -443,7 +805,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -468,7 +831,8 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
     ],
     "note": "\"burnt\" est britannique, \"burned\" américain.",
     "ipa": null,
@@ -492,7 +856,33 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "bust",
+    "base": "bust",
+    "past": [
+      "busted",
+      "bust"
+    ],
+    "participle": [
+      "busted",
+      "bust"
+    ],
+    "fr": [
+      "Casser"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -516,7 +906,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -540,7 +931,8 @@
     "rank": 99,
     "tier": 2,
     "tags": [
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -564,7 +956,33 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "chide",
+    "base": "chide",
+    "past": [
+      "chid",
+      "chided"
+    ],
+    "participle": [
+      "chidden",
+      "chided"
+    ],
+    "fr": [
+      "Gronder"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -588,7 +1006,33 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "clap",
+    "base": "clap",
+    "past": [
+      "clapped",
+      "clapt"
+    ],
+    "participle": [
+      "clapped",
+      "clapt"
+    ],
+    "fr": [
+      "Applaudir"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -611,7 +1055,34 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "clothe",
+    "base": "clothe",
+    "past": [
+      "clothed",
+      "clad"
+    ],
+    "participle": [
+      "clothed",
+      "clad"
+    ],
+    "fr": [
+      "Vêtir"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -634,7 +1105,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -658,7 +1130,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -682,7 +1155,31 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "crossbreed",
+    "base": "crossbreed",
+    "past": [
+      "crossbred"
+    ],
+    "participle": [
+      "crossbred"
+    ],
+    "fr": [
+      "Croiser"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -706,7 +1203,58 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "dare",
+    "base": "dare",
+    "past": [
+      "dared",
+      "durst"
+    ],
+    "participle": [
+      "dared",
+      "durst"
+    ],
+    "fr": [
+      "Oser"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "daydream",
+    "base": "daydream",
+    "past": [
+      "daydreamed",
+      "daydreamt"
+    ],
+    "participle": [
+      "daydreamed",
+      "daydreamt"
+    ],
+    "fr": [
+      "Rêver éveillé"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -731,7 +1279,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -755,7 +1304,32 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "disprove",
+    "base": "disprove",
+    "past": [
+      "disproved"
+    ],
+    "participle": [
+      "disproved",
+      "disproven"
+    ],
+    "fr": [
+      "Réfuter"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -778,7 +1352,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": "\"dove\" est américain.",
     "ipa": null,
     "example": null
@@ -801,7 +1377,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -826,7 +1403,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -851,7 +1429,8 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
     ],
     "note": "\"dreamt\" est britannique.",
     "ipa": null,
@@ -875,7 +1454,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -899,7 +1479,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -924,7 +1505,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -947,7 +1530,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -971,7 +1555,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -994,7 +1579,8 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1019,7 +1605,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1044,7 +1631,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1068,7 +1656,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1095,7 +1684,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1118,7 +1708,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -1139,7 +1731,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -1162,7 +1756,31 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "forbear",
+    "base": "forbear",
+    "past": [
+      "forbore"
+    ],
+    "participle": [
+      "forborne"
+    ],
+    "fr": [
+      "S'abstenir"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1186,7 +1804,8 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1210,7 +1829,32 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "forego",
+    "base": "forego",
+    "past": [
+      "forewent"
+    ],
+    "participle": [
+      "foregone"
+    ],
+    "fr": [
+      "Renoncer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -1232,7 +1876,32 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "foretell",
+    "base": "foretell",
+    "past": [
+      "foretold"
+    ],
+    "participle": [
+      "foretold"
+    ],
+    "fr": [
+      "Prédire"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -1255,7 +1924,8 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1277,7 +1947,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -1299,7 +1971,32 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "forswear",
+    "base": "forswear",
+    "past": [
+      "forswore"
+    ],
+    "participle": [
+      "forsworn"
+    ],
+    "fr": [
+      "Abjurer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -1323,7 +2020,54 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "frostbite",
+    "base": "frostbite",
+    "past": [
+      "frostbit"
+    ],
+    "participle": [
+      "frostbitten"
+    ],
+    "fr": [
+      "Gelure"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "gainsay",
+    "base": "gainsay",
+    "past": [
+      "gainsaid"
+    ],
+    "participle": [
+      "gainsaid"
+    ],
+    "fr": [
+      "Contredire"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1350,9 +2094,35 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": "\"gotten\" est la forme américaine du participe passé.",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "gild",
+    "base": "gild",
+    "past": [
+      "gilded",
+      "gilt"
+    ],
+    "participle": [
+      "gilded",
+      "gilt"
+    ],
+    "fr": [
+      "Dorer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
     "ipa": null,
     "example": null
   },
@@ -1374,7 +2144,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1398,7 +2169,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1422,7 +2194,8 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1448,7 +2221,54 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "hand-feed",
+    "base": "hand-feed",
+    "past": [
+      "hand-fed"
+    ],
+    "participle": [
+      "hand-fed"
+    ],
+    "fr": [
+      "Nourrir à la main"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "handwrite",
+    "base": "handwrite",
+    "past": [
+      "handwrote"
+    ],
+    "participle": [
+      "handwritten"
+    ],
+    "fr": [
+      "Écrire à la main"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1473,7 +2293,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": "Régulier (hanged) au sens de \"pendre quelqu'un\".",
     "ipa": null,
@@ -1497,7 +2318,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1521,7 +2343,57 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "heave",
+    "base": "heave",
+    "past": [
+      "heaved",
+      "hove"
+    ],
+    "participle": [
+      "heaved",
+      "hove"
+    ],
+    "fr": [
+      "Soulever"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "hew",
+    "base": "hew",
+    "past": [
+      "hewed"
+    ],
+    "participle": [
+      "hewn",
+      "hewed"
+    ],
+    "fr": [
+      "Tailler"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1534,7 +2406,8 @@
       "hid"
     ],
     "participle": [
-      "hidden"
+      "hidden",
+      "hid"
     ],
     "fr": [
       "cacher",
@@ -1546,7 +2419,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1571,7 +2445,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1595,7 +2470,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1620,7 +2496,198 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "inlay",
+    "base": "inlay",
+    "past": [
+      "inlaid"
+    ],
+    "participle": [
+      "inlaid"
+    ],
+    "fr": [
+      "Incruster"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "input",
+    "base": "input",
+    "past": [
+      "input",
+      "inputted"
+    ],
+    "participle": [
+      "input",
+      "inputted"
+    ],
+    "fr": [
+      "Saisir"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "inset",
+    "base": "inset",
+    "past": [
+      "inset"
+    ],
+    "participle": [
+      "inset"
+    ],
+    "fr": [
+      "Encastrer"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "interbreed",
+    "base": "interbreed",
+    "past": [
+      "interbred"
+    ],
+    "participle": [
+      "interbred"
+    ],
+    "fr": [
+      "Croiser des espèces"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "interweave",
+    "base": "interweave",
+    "past": [
+      "interwove",
+      "interweaved"
+    ],
+    "participle": [
+      "interwoven",
+      "interweaved"
+    ],
+    "fr": [
+      "Entrelacer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "interwind",
+    "base": "interwind",
+    "past": [
+      "interwound"
+    ],
+    "participle": [
+      "interwound"
+    ],
+    "fr": [
+      "Enrouler ensemble"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "inweave",
+    "base": "inweave",
+    "past": [
+      "inwove",
+      "inweaved"
+    ],
+    "participle": [
+      "inwoven",
+      "inweaved"
+    ],
+    "fr": [
+      "Incorporer au tissage"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "jerry-build",
+    "base": "jerry-build",
+    "past": [
+      "jerry-built"
+    ],
+    "participle": [
+      "jerry-built"
+    ],
+    "fr": [
+      "Bâtir à la va-vite"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1644,7 +2711,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1668,7 +2736,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -1691,7 +2761,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -1715,7 +2787,32 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "lade",
+    "base": "lade",
+    "past": [
+      "laded"
+    ],
+    "participle": [
+      "laden",
+      "laded"
+    ],
+    "fr": [
+      "Charger"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1739,7 +2836,8 @@
     "rank": 55,
     "tier": 2,
     "tags": [
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": "À ne pas confondre avec le prétérit de \"lie\".",
     "ipa": null,
@@ -1764,7 +2862,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1789,7 +2888,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": "\"leant\" est britannique.",
     "ipa": null,
     "example": null
@@ -1813,7 +2914,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -1836,7 +2939,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": "\"learnt\" est britannique.",
     "ipa": null,
     "example": null
@@ -1861,7 +2966,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1884,7 +2990,8 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1909,7 +3016,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1934,7 +3042,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": "Régulier (lied) au sens de \"mentir\".",
     "ipa": null,
@@ -1961,7 +3070,31 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "lip-read",
+    "base": "lip-read",
+    "past": [
+      "lip-read"
+    ],
+    "participle": [
+      "lip-read"
+    ],
+    "fr": [
+      "Lire sur les lèvres"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -1985,7 +3118,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2010,7 +3144,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2035,7 +3170,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2059,7 +3195,123 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "miscast",
+    "base": "miscast",
+    "past": [
+      "miscast"
+    ],
+    "participle": [
+      "miscast"
+    ],
+    "fr": [
+      "Mal distribuer un rôle"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "misdeal",
+    "base": "misdeal",
+    "past": [
+      "misdealt"
+    ],
+    "participle": [
+      "misdealt"
+    ],
+    "fr": [
+      "Mal distribuer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "misdo",
+    "base": "misdo",
+    "past": [
+      "misdid"
+    ],
+    "participle": [
+      "misdone"
+    ],
+    "fr": [
+      "Mal faire"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "mishear",
+    "base": "mishear",
+    "past": [
+      "misheard"
+    ],
+    "participle": [
+      "misheard"
+    ],
+    "fr": [
+      "Mal entendre"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "mislay",
+    "base": "mislay",
+    "past": [
+      "mislaid"
+    ],
+    "participle": [
+      "mislaid"
+    ],
+    "fr": [
+      "Égarer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2081,7 +3333,172 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "misread",
+    "base": "misread",
+    "past": [
+      "misread"
+    ],
+    "participle": [
+      "misread"
+    ],
+    "fr": [
+      "Mal lire"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "misset",
+    "base": "misset",
+    "past": [
+      "misset"
+    ],
+    "participle": [
+      "misset"
+    ],
+    "fr": [
+      "Mal régler"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "misspeak",
+    "base": "misspeak",
+    "past": [
+      "misspoke"
+    ],
+    "participle": [
+      "misspoken"
+    ],
+    "fr": [
+      "Mal s'exprimer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "misspell",
+    "base": "misspell",
+    "past": [
+      "misspelled",
+      "misspelt"
+    ],
+    "participle": [
+      "misspelled",
+      "misspelt"
+    ],
+    "fr": [
+      "Mal épeler"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "misspend",
+    "base": "misspend",
+    "past": [
+      "misspent"
+    ],
+    "participle": [
+      "misspent"
+    ],
+    "fr": [
+      "Mal dépenser"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "mistake",
+    "base": "mistake",
+    "past": [
+      "mistook"
+    ],
+    "participle": [
+      "mistaken"
+    ],
+    "fr": [
+      "Se tromper"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "misteach",
+    "base": "misteach",
+    "past": [
+      "mistaught"
+    ],
+    "participle": [
+      "mistaught"
+    ],
+    "fr": [
+      "Mal enseigner"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -2102,7 +3519,32 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "miswrite",
+    "base": "miswrite",
+    "past": [
+      "miswrote"
+    ],
+    "participle": [
+      "miswritten"
+    ],
+    "fr": [
+      "Mal écrire"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -2125,7 +3567,937 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "offset",
+    "base": "offset",
+    "past": [
+      "offset"
+    ],
+    "participle": [
+      "offset"
+    ],
+    "fr": [
+      "Compenser"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outbid",
+    "base": "outbid",
+    "past": [
+      "outbid"
+    ],
+    "participle": [
+      "outbid"
+    ],
+    "fr": [
+      "Surenchérir"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outbreed",
+    "base": "outbreed",
+    "past": [
+      "outbred"
+    ],
+    "participle": [
+      "outbred"
+    ],
+    "fr": [
+      "Croiser hors lignée"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outdo",
+    "base": "outdo",
+    "past": [
+      "outdid"
+    ],
+    "participle": [
+      "outdone"
+    ],
+    "fr": [
+      "Surpasser"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outdraw",
+    "base": "outdraw",
+    "past": [
+      "outdrew"
+    ],
+    "participle": [
+      "outdrawn"
+    ],
+    "fr": [
+      "Dégainer plus vite"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outdrink",
+    "base": "outdrink",
+    "past": [
+      "outdrank"
+    ],
+    "participle": [
+      "outdrunk"
+    ],
+    "fr": [
+      "Boire plus que"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outdrive",
+    "base": "outdrive",
+    "past": [
+      "outdrove"
+    ],
+    "participle": [
+      "outdriven"
+    ],
+    "fr": [
+      "Conduire mieux que"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outfight",
+    "base": "outfight",
+    "past": [
+      "outfought"
+    ],
+    "participle": [
+      "outfought"
+    ],
+    "fr": [
+      "Combattre mieux que"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outfly",
+    "base": "outfly",
+    "past": [
+      "outflew"
+    ],
+    "participle": [
+      "outflown"
+    ],
+    "fr": [
+      "Voler mieux que"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outgrow",
+    "base": "outgrow",
+    "past": [
+      "outgrew"
+    ],
+    "participle": [
+      "outgrown"
+    ],
+    "fr": [
+      "Devenir trop grand pour"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outleap",
+    "base": "outleap",
+    "past": [
+      "outleaped",
+      "outleapt"
+    ],
+    "participle": [
+      "outleaped",
+      "outleapt"
+    ],
+    "fr": [
+      "Sauter plus loin que"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outride",
+    "base": "outride",
+    "past": [
+      "outrode"
+    ],
+    "participle": [
+      "outridden"
+    ],
+    "fr": [
+      "Chevaucher mieux que"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outrun",
+    "base": "outrun",
+    "past": [
+      "outran"
+    ],
+    "participle": [
+      "outrun"
+    ],
+    "fr": [
+      "Courir plus vite que"
+    ],
+    "pattern": "ABA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outsell",
+    "base": "outsell",
+    "past": [
+      "outsold"
+    ],
+    "participle": [
+      "outsold"
+    ],
+    "fr": [
+      "Vendre plus que"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outshine",
+    "base": "outshine",
+    "past": [
+      "outshined",
+      "outshone"
+    ],
+    "participle": [
+      "outshined",
+      "outshone"
+    ],
+    "fr": [
+      "Éclipser"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outshoot",
+    "base": "outshoot",
+    "past": [
+      "outshot"
+    ],
+    "participle": [
+      "outshot"
+    ],
+    "fr": [
+      "Tirer mieux que"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outsing",
+    "base": "outsing",
+    "past": [
+      "outsang"
+    ],
+    "participle": [
+      "outsung"
+    ],
+    "fr": [
+      "Chanter mieux que"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outsit",
+    "base": "outsit",
+    "past": [
+      "outsat"
+    ],
+    "participle": [
+      "outsat"
+    ],
+    "fr": [
+      "Rester assis plus longtemps"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outsleep",
+    "base": "outsleep",
+    "past": [
+      "outslept"
+    ],
+    "participle": [
+      "outslept"
+    ],
+    "fr": [
+      "Dormir plus que"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outsmell",
+    "base": "outsmell",
+    "past": [
+      "outsmelled",
+      "outsmelt"
+    ],
+    "participle": [
+      "outsmelled",
+      "outsmelt"
+    ],
+    "fr": [
+      "Sentir mieux que"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outspeak",
+    "base": "outspeak",
+    "past": [
+      "outspoke"
+    ],
+    "participle": [
+      "outspoken"
+    ],
+    "fr": [
+      "Parler mieux que"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outspeed",
+    "base": "outspeed",
+    "past": [
+      "outsped"
+    ],
+    "participle": [
+      "outsped"
+    ],
+    "fr": [
+      "Aller plus vite que"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outspend",
+    "base": "outspend",
+    "past": [
+      "outspent"
+    ],
+    "participle": [
+      "outspent"
+    ],
+    "fr": [
+      "Dépenser plus que"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outspin",
+    "base": "outspin",
+    "past": [
+      "outspun"
+    ],
+    "participle": [
+      "outspun"
+    ],
+    "fr": [
+      "Filer mieux que"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outspring",
+    "base": "outspring",
+    "past": [
+      "outsprang",
+      "outsprung"
+    ],
+    "participle": [
+      "outsprung"
+    ],
+    "fr": [
+      "Bondir plus loin"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outstand",
+    "base": "outstand",
+    "past": [
+      "outstood"
+    ],
+    "participle": [
+      "outstood"
+    ],
+    "fr": [
+      "Se démarquer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outswear",
+    "base": "outswear",
+    "past": [
+      "outswore"
+    ],
+    "participle": [
+      "outsworn"
+    ],
+    "fr": [
+      "Jurer plus que"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outswim",
+    "base": "outswim",
+    "past": [
+      "outswam"
+    ],
+    "participle": [
+      "outswum"
+    ],
+    "fr": [
+      "Nager mieux que"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outtell",
+    "base": "outtell",
+    "past": [
+      "outtold"
+    ],
+    "participle": [
+      "outtold"
+    ],
+    "fr": [
+      "Raconter mieux que"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outthink",
+    "base": "outthink",
+    "past": [
+      "outthought"
+    ],
+    "participle": [
+      "outthought"
+    ],
+    "fr": [
+      "Penser mieux que"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outthrow",
+    "base": "outthrow",
+    "past": [
+      "outthrew"
+    ],
+    "participle": [
+      "outthrown"
+    ],
+    "fr": [
+      "Lancer plus loin"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outwear",
+    "base": "outwear",
+    "past": [
+      "outwore"
+    ],
+    "participle": [
+      "outworn"
+    ],
+    "fr": [
+      "User jusqu'au bout"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outwind",
+    "base": "outwind",
+    "past": [
+      "outwound"
+    ],
+    "participle": [
+      "outwound"
+    ],
+    "fr": [
+      "Dérouler"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "outwrite",
+    "base": "outwrite",
+    "past": [
+      "outwrote"
+    ],
+    "participle": [
+      "outwritten"
+    ],
+    "fr": [
+      "Écrire mieux que"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overbear",
+    "base": "overbear",
+    "past": [
+      "overbore"
+    ],
+    "participle": [
+      "overborne",
+      "overborn"
+    ],
+    "fr": [
+      "Dominer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overbid",
+    "base": "overbid",
+    "past": [
+      "overbid"
+    ],
+    "participle": [
+      "overbid"
+    ],
+    "fr": [
+      "Surenchérir"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overbreed",
+    "base": "overbreed",
+    "past": [
+      "overbred"
+    ],
+    "participle": [
+      "overbred"
+    ],
+    "fr": [
+      "Surexploiter l'élevage"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overbuild",
+    "base": "overbuild",
+    "past": [
+      "overbuilt"
+    ],
+    "participle": [
+      "overbuilt"
+    ],
+    "fr": [
+      "Construire à l'excès"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overbuy",
+    "base": "overbuy",
+    "past": [
+      "overbought"
+    ],
+    "participle": [
+      "overbought"
+    ],
+    "fr": [
+      "Acheter à l'excès"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overcast",
+    "base": "overcast",
+    "past": [
+      "overcast"
+    ],
+    "participle": [
+      "overcast"
+    ],
+    "fr": [
+      "Couvrir de nuages"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -2147,7 +4519,170 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overcut",
+    "base": "overcut",
+    "past": [
+      "overcut"
+    ],
+    "participle": [
+      "overcut"
+    ],
+    "fr": [
+      "Couper à l'excès"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overdo",
+    "base": "overdo",
+    "past": [
+      "overdid"
+    ],
+    "participle": [
+      "overdone"
+    ],
+    "fr": [
+      "Exagérer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overdraw",
+    "base": "overdraw",
+    "past": [
+      "overdrew"
+    ],
+    "participle": [
+      "overdrawn"
+    ],
+    "fr": [
+      "Mettre à découvert"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overdrink",
+    "base": "overdrink",
+    "past": [
+      "overdrank"
+    ],
+    "participle": [
+      "overdrunk"
+    ],
+    "fr": [
+      "Boire à l'excès"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overeat",
+    "base": "overeat",
+    "past": [
+      "overate"
+    ],
+    "participle": [
+      "overeaten"
+    ],
+    "fr": [
+      "Trop manger"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overfeed",
+    "base": "overfeed",
+    "past": [
+      "overfed"
+    ],
+    "participle": [
+      "overfed"
+    ],
+    "fr": [
+      "Suralimenter"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overhang",
+    "base": "overhang",
+    "past": [
+      "overhung"
+    ],
+    "participle": [
+      "overhung"
+    ],
+    "fr": [
+      "Surplomber"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -2168,7 +4703,149 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overlay",
+    "base": "overlay",
+    "past": [
+      "overlaid"
+    ],
+    "participle": [
+      "overlaid"
+    ],
+    "fr": [
+      "Recouvrir"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overleap",
+    "base": "overleap",
+    "past": [
+      "overleaped",
+      "overleapt"
+    ],
+    "participle": [
+      "overleaped",
+      "overleapt"
+    ],
+    "fr": [
+      "Sauter par-dessus"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overlie",
+    "base": "overlie",
+    "past": [
+      "overlay"
+    ],
+    "participle": [
+      "overlain"
+    ],
+    "fr": [
+      "Reposer sur"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overpay",
+    "base": "overpay",
+    "past": [
+      "overpaid"
+    ],
+    "participle": [
+      "overpaid"
+    ],
+    "fr": [
+      "Trop payer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "override",
+    "base": "override",
+    "past": [
+      "overrode"
+    ],
+    "participle": [
+      "overridden"
+    ],
+    "fr": [
+      "Passer outre"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overrun",
+    "base": "overrun",
+    "past": [
+      "overran"
+    ],
+    "participle": [
+      "overrun"
+    ],
+    "fr": [
+      "Envahir"
+    ],
+    "pattern": "ABA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -2189,7 +4866,383 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "oversell",
+    "base": "oversell",
+    "past": [
+      "oversold"
+    ],
+    "participle": [
+      "oversold"
+    ],
+    "fr": [
+      "Survendre"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overset",
+    "base": "overset",
+    "past": [
+      "overset"
+    ],
+    "participle": [
+      "overset"
+    ],
+    "fr": [
+      "Renverser"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "oversew",
+    "base": "oversew",
+    "past": [
+      "oversewed"
+    ],
+    "participle": [
+      "oversewn",
+      "oversewed"
+    ],
+    "fr": [
+      "Surpiquer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overshoot",
+    "base": "overshoot",
+    "past": [
+      "overshot"
+    ],
+    "participle": [
+      "overshot"
+    ],
+    "fr": [
+      "Dépasser la cible"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "oversleep",
+    "base": "oversleep",
+    "past": [
+      "overslept"
+    ],
+    "participle": [
+      "overslept"
+    ],
+    "fr": [
+      "Dormir trop longtemps"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "oversow",
+    "base": "oversow",
+    "past": [
+      "oversowed"
+    ],
+    "participle": [
+      "oversown",
+      "oversowed"
+    ],
+    "fr": [
+      "Semer à l'excès"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overspeak",
+    "base": "overspeak",
+    "past": [
+      "overspoke"
+    ],
+    "participle": [
+      "overspoken"
+    ],
+    "fr": [
+      "Parler trop"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overspend",
+    "base": "overspend",
+    "past": [
+      "overspent"
+    ],
+    "participle": [
+      "overspent"
+    ],
+    "fr": [
+      "Trop dépenser"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overspill",
+    "base": "overspill",
+    "past": [
+      "overspilled",
+      "overspilt"
+    ],
+    "participle": [
+      "overspilled",
+      "overspilt"
+    ],
+    "fr": [
+      "Déborder"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overspin",
+    "base": "overspin",
+    "past": [
+      "overspun"
+    ],
+    "participle": [
+      "overspun"
+    ],
+    "fr": [
+      "Filer à l'excès"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overspread",
+    "base": "overspread",
+    "past": [
+      "overspread"
+    ],
+    "participle": [
+      "overspread"
+    ],
+    "fr": [
+      "Se répandre sur"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overspring",
+    "base": "overspring",
+    "past": [
+      "oversprang",
+      "oversprung"
+    ],
+    "participle": [
+      "oversprung"
+    ],
+    "fr": [
+      "Bondir par-dessus"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overstand",
+    "base": "overstand",
+    "past": [
+      "overstood"
+    ],
+    "participle": [
+      "overstood"
+    ],
+    "fr": [
+      "Rester debout trop longtemps"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overstrew",
+    "base": "overstrew",
+    "past": [
+      "overstrewed"
+    ],
+    "participle": [
+      "overstrewn",
+      "overstrewed"
+    ],
+    "fr": [
+      "Joncher"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overstride",
+    "base": "overstride",
+    "past": [
+      "overstrode"
+    ],
+    "participle": [
+      "overstridden"
+    ],
+    "fr": [
+      "Enjamber"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overstrike",
+    "base": "overstrike",
+    "past": [
+      "overstruck"
+    ],
+    "participle": [
+      "overstruck"
+    ],
+    "fr": [
+      "Surfrapper"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -2211,7 +5264,147 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overthink",
+    "base": "overthink",
+    "past": [
+      "overthought"
+    ],
+    "participle": [
+      "overthought"
+    ],
+    "fr": [
+      "Trop réfléchir"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overthrow",
+    "base": "overthrow",
+    "past": [
+      "overthrew"
+    ],
+    "participle": [
+      "overthrown"
+    ],
+    "fr": [
+      "Renverser"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overwear",
+    "base": "overwear",
+    "past": [
+      "overwore"
+    ],
+    "participle": [
+      "overworn"
+    ],
+    "fr": [
+      "User à force de porter"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overwind",
+    "base": "overwind",
+    "past": [
+      "overwound"
+    ],
+    "participle": [
+      "overwound"
+    ],
+    "fr": [
+      "Trop remonter"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "overwrite",
+    "base": "overwrite",
+    "past": [
+      "overwrote"
+    ],
+    "participle": [
+      "overwritten"
+    ],
+    "fr": [
+      "Écraser"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "partake",
+    "base": "partake",
+    "past": [
+      "partook"
+    ],
+    "participle": [
+      "partaken"
+    ],
+    "fr": [
+      "Participer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -2234,7 +5427,240 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "plead",
+    "base": "plead",
+    "past": [
+      "pleaded",
+      "pled"
+    ],
+    "participle": [
+      "pleaded",
+      "pled"
+    ],
+    "fr": [
+      "Plaider"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "prebuild",
+    "base": "prebuild",
+    "past": [
+      "prebuilt"
+    ],
+    "participle": [
+      "prebuilt"
+    ],
+    "fr": [
+      "Préfabriquer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "predo",
+    "base": "predo",
+    "past": [
+      "predid"
+    ],
+    "participle": [
+      "predone"
+    ],
+    "fr": [
+      "Faire à l'avance"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "premake",
+    "base": "premake",
+    "past": [
+      "premade"
+    ],
+    "participle": [
+      "premade"
+    ],
+    "fr": [
+      "Préfabriquer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "prepay",
+    "base": "prepay",
+    "past": [
+      "prepaid"
+    ],
+    "participle": [
+      "prepaid"
+    ],
+    "fr": [
+      "Payer d'avance"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "presell",
+    "base": "presell",
+    "past": [
+      "presold"
+    ],
+    "participle": [
+      "presold"
+    ],
+    "fr": [
+      "Prévendre"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "preset",
+    "base": "preset",
+    "past": [
+      "preset"
+    ],
+    "participle": [
+      "preset"
+    ],
+    "fr": [
+      "Prérégler"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "preshrink",
+    "base": "preshrink",
+    "past": [
+      "preshrank"
+    ],
+    "participle": [
+      "preshrunk"
+    ],
+    "fr": [
+      "Prérétrécir"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "presplit",
+    "base": "presplit",
+    "past": [
+      "presplit"
+    ],
+    "participle": [
+      "presplit"
+    ],
+    "fr": [
+      "Préfendre"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "proofread",
+    "base": "proofread",
+    "past": [
+      "proofread"
+    ],
+    "participle": [
+      "proofread"
+    ],
+    "fr": [
+      "Relire des épreuves"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2258,7 +5684,8 @@
     "rank": 75,
     "tier": 2,
     "tags": [
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2283,7 +5710,31 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "quick-freeze",
+    "base": "quick-freeze",
+    "past": [
+      "quick-froze"
+    ],
+    "participle": [
+      "quick-frozen"
+    ],
+    "fr": [
+      "Surgeler"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2309,7 +5760,8 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2333,9 +5785,104 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": "Le prétérit et le participe s'écrivent \"read\" mais se prononcent [red].",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "reawake",
+    "base": "reawake",
+    "past": [
+      "reawoke"
+    ],
+    "participle": [
+      "reawaken"
+    ],
+    "fr": [
+      "Rééveiller"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "rebid",
+    "base": "rebid",
+    "past": [
+      "rebid"
+    ],
+    "participle": [
+      "rebid"
+    ],
+    "fr": [
+      "Surenchérir de nouveau"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "rebind",
+    "base": "rebind",
+    "past": [
+      "rebound"
+    ],
+    "participle": [
+      "rebound"
+    ],
+    "fr": [
+      "Relier de nouveau"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "rebroadcast",
+    "base": "rebroadcast",
+    "past": [
+      "rebroadcast",
+      "rebroadcasted"
+    ],
+    "participle": [
+      "rebroadcast",
+      "rebroadcasted"
+    ],
+    "fr": [
+      "Rediffuser"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
     "ipa": null,
     "example": null
   },
@@ -2355,7 +5902,412 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "recast",
+    "base": "recast",
+    "past": [
+      "recast"
+    ],
+    "participle": [
+      "recast"
+    ],
+    "fr": [
+      "Refondre"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "recut",
+    "base": "recut",
+    "past": [
+      "recut"
+    ],
+    "participle": [
+      "recut"
+    ],
+    "fr": [
+      "Recouper"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "redeal",
+    "base": "redeal",
+    "past": [
+      "redealt"
+    ],
+    "participle": [
+      "redealt"
+    ],
+    "fr": [
+      "Redistribuer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "redo",
+    "base": "redo",
+    "past": [
+      "redid"
+    ],
+    "participle": [
+      "redone"
+    ],
+    "fr": [
+      "Refaire"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "redraw",
+    "base": "redraw",
+    "past": [
+      "redrew"
+    ],
+    "participle": [
+      "redrawn"
+    ],
+    "fr": [
+      "Redessiner"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "reeve",
+    "base": "reeve",
+    "past": [
+      "reeved",
+      "rove"
+    ],
+    "participle": [
+      "reeved",
+      "rove"
+    ],
+    "fr": [
+      "Enfiler un cordage"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "refit",
+    "base": "refit",
+    "past": [
+      "refit",
+      "refitted"
+    ],
+    "participle": [
+      "refit",
+      "refitted"
+    ],
+    "fr": [
+      "Réajuster"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "regrind",
+    "base": "regrind",
+    "past": [
+      "reground"
+    ],
+    "participle": [
+      "reground"
+    ],
+    "fr": [
+      "Remoudre"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "regrow",
+    "base": "regrow",
+    "past": [
+      "regrew"
+    ],
+    "participle": [
+      "regrown"
+    ],
+    "fr": [
+      "Repousser"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "rehang",
+    "base": "rehang",
+    "past": [
+      "rehung"
+    ],
+    "participle": [
+      "rehung"
+    ],
+    "fr": [
+      "Raccrocher"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "rehear",
+    "base": "rehear",
+    "past": [
+      "reheard"
+    ],
+    "participle": [
+      "reheard"
+    ],
+    "fr": [
+      "Réentendre"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "reknit",
+    "base": "reknit",
+    "past": [
+      "reknitted",
+      "reknit"
+    ],
+    "participle": [
+      "reknitted",
+      "reknit"
+    ],
+    "fr": [
+      "Retricoter"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "relay",
+    "base": "relay",
+    "past": [
+      "relaid"
+    ],
+    "participle": [
+      "relaid"
+    ],
+    "fr": [
+      "Reposer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "relearn",
+    "base": "relearn",
+    "past": [
+      "relearned",
+      "relearnt"
+    ],
+    "participle": [
+      "relearned",
+      "relearnt"
+    ],
+    "fr": [
+      "Réapprendre"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "relight",
+    "base": "relight",
+    "past": [
+      "relit",
+      "relighted"
+    ],
+    "participle": [
+      "relit",
+      "relighted"
+    ],
+    "fr": [
+      "Rallumer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "remake",
+    "base": "remake",
+    "past": [
+      "remade"
+    ],
+    "participle": [
+      "remade"
+    ],
+    "fr": [
+      "Refaire"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "rend",
+    "base": "rend",
+    "past": [
+      "rent",
+      "rended"
+    ],
+    "participle": [
+      "rent",
+      "rended"
+    ],
+    "fr": [
+      "Déchirer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -2376,7 +6328,217 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "reread",
+    "base": "reread",
+    "past": [
+      "reread"
+    ],
+    "participle": [
+      "reread"
+    ],
+    "fr": [
+      "Relire"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "rerun",
+    "base": "rerun",
+    "past": [
+      "reran"
+    ],
+    "participle": [
+      "rerun"
+    ],
+    "fr": [
+      "Rediffuser"
+    ],
+    "pattern": "ABA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "resell",
+    "base": "resell",
+    "past": [
+      "resold"
+    ],
+    "participle": [
+      "resold"
+    ],
+    "fr": [
+      "Revendre"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "resend",
+    "base": "resend",
+    "past": [
+      "resent"
+    ],
+    "participle": [
+      "resent"
+    ],
+    "fr": [
+      "Renvoyer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "reset",
+    "base": "reset",
+    "past": [
+      "reset"
+    ],
+    "participle": [
+      "reset"
+    ],
+    "fr": [
+      "Réinitialiser"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "resew",
+    "base": "resew",
+    "past": [
+      "resewed"
+    ],
+    "participle": [
+      "resewn",
+      "resewed"
+    ],
+    "fr": [
+      "Recoudre"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "retake",
+    "base": "retake",
+    "past": [
+      "retook"
+    ],
+    "participle": [
+      "retaken"
+    ],
+    "fr": [
+      "Reprendre"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "reteach",
+    "base": "reteach",
+    "past": [
+      "retaught"
+    ],
+    "participle": [
+      "retaught"
+    ],
+    "fr": [
+      "Réenseigner"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "retear",
+    "base": "retear",
+    "past": [
+      "retore"
+    ],
+    "participle": [
+      "retorn"
+    ],
+    "fr": [
+      "Redéchirer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -2397,7 +6559,249 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "rethink",
+    "base": "rethink",
+    "past": [
+      "rethought"
+    ],
+    "participle": [
+      "rethought"
+    ],
+    "fr": [
+      "Reconsidérer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "retread",
+    "base": "retread",
+    "past": [
+      "retread"
+    ],
+    "participle": [
+      "retread"
+    ],
+    "fr": [
+      "Rechaper"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "retrofit",
+    "base": "retrofit",
+    "past": [
+      "retrofitted",
+      "retrofit"
+    ],
+    "participle": [
+      "retrofitted",
+      "retrofit"
+    ],
+    "fr": [
+      "Moderniser"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "rewake",
+    "base": "rewake",
+    "past": [
+      "rewoke",
+      "rewaked"
+    ],
+    "participle": [
+      "rewaken",
+      "rewaked"
+    ],
+    "fr": [
+      "Rééveiller"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "rewear",
+    "base": "rewear",
+    "past": [
+      "rewore"
+    ],
+    "participle": [
+      "reworn"
+    ],
+    "fr": [
+      "Remettre"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "reweave",
+    "base": "reweave",
+    "past": [
+      "rewove",
+      "reweaved"
+    ],
+    "participle": [
+      "rewoven",
+      "reweaved"
+    ],
+    "fr": [
+      "Retisser"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "rewed",
+    "base": "rewed",
+    "past": [
+      "rewed",
+      "rewedded"
+    ],
+    "participle": [
+      "rewed",
+      "rewedded"
+    ],
+    "fr": [
+      "Remarier"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "rewet",
+    "base": "rewet",
+    "past": [
+      "rewet",
+      "rewetted"
+    ],
+    "participle": [
+      "rewet",
+      "rewetted"
+    ],
+    "fr": [
+      "Remouiller"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "rewin",
+    "base": "rewin",
+    "past": [
+      "rewon"
+    ],
+    "participle": [
+      "rewon"
+    ],
+    "fr": [
+      "Regagner"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "rewind",
+    "base": "rewind",
+    "past": [
+      "rewound"
+    ],
+    "participle": [
+      "rewound"
+    ],
+    "fr": [
+      "Rembobiner"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -2418,7 +6822,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -2439,7 +6845,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -2461,7 +6869,8 @@
     "rank": 87,
     "tier": 2,
     "tags": [
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2485,7 +6894,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2510,7 +6920,55 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "rive",
+    "base": "rive",
+    "past": [
+      "rived"
+    ],
+    "participle": [
+      "riven",
+      "rived"
+    ],
+    "fr": [
+      "Fendre"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "roughcast",
+    "base": "roughcast",
+    "past": [
+      "roughcast"
+    ],
+    "participle": [
+      "roughcast"
+    ],
+    "fr": [
+      "Crépir"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2534,7 +6992,55 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "sand-cast",
+    "base": "sand-cast",
+    "past": [
+      "sand-cast"
+    ],
+    "participle": [
+      "sand-cast"
+    ],
+    "fr": [
+      "Couler en sable"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "saw",
+    "base": "saw",
+    "past": [
+      "sawed"
+    ],
+    "participle": [
+      "sawed",
+      "sawn"
+    ],
+    "fr": [
+      "Scier"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2558,7 +7064,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": "\"said\" se prononce [sed].",
     "ipa": null,
@@ -2582,7 +7089,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2606,7 +7114,55 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "self-feed",
+    "base": "self-feed",
+    "past": [
+      "self-fed"
+    ],
+    "participle": [
+      "self-fed"
+    ],
+    "fr": [
+      "S'auto-alimenter"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "self-sow",
+    "base": "self-sow",
+    "past": [
+      "self-sowed"
+    ],
+    "participle": [
+      "self-sown",
+      "self-sowed"
+    ],
+    "fr": [
+      "Se ressemer seul"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2630,7 +7186,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2654,7 +7211,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2679,7 +7237,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2702,7 +7261,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -2724,7 +7285,56 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "shave",
+    "base": "shave",
+    "past": [
+      "shaved"
+    ],
+    "participle": [
+      "shaved",
+      "shaven"
+    ],
+    "fr": [
+      "Raser"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "shear",
+    "base": "shear",
+    "past": [
+      "sheared"
+    ],
+    "participle": [
+      "sheared",
+      "shorn"
+    ],
+    "fr": [
+      "Tondre"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2747,7 +7357,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -2756,10 +7368,12 @@
     "id": "shine",
     "base": "shine",
     "past": [
-      "shone"
+      "shone",
+      "shined"
     ],
     "participle": [
-      "shone"
+      "shone",
+      "shined"
     ],
     "fr": [
       "briller"
@@ -2768,8 +7382,62 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": "Régulier (shined) au sens de \"cirer, faire briller\".",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "shit",
+    "base": "shit",
+    "past": [
+      "shit",
+      "shat",
+      "shitted"
+    ],
+    "participle": [
+      "shit",
+      "shat",
+      "shitted"
+    ],
+    "fr": [
+      "Déféquer"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "shoe",
+    "base": "shoe",
+    "past": [
+      "shoed",
+      "shod"
+    ],
+    "participle": [
+      "shoed",
+      "shod"
+    ],
+    "fr": [
+      "Ferrer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
     "ipa": null,
     "example": null
   },
@@ -2791,7 +7459,8 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2816,7 +7485,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2830,7 +7500,8 @@
       "shrunk"
     ],
     "participle": [
-      "shrunk"
+      "shrunk",
+      "shrunken"
     ],
     "fr": [
       "rétrécir",
@@ -2841,7 +7512,33 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "shrive",
+    "base": "shrive",
+    "past": [
+      "shrived",
+      "shrove"
+    ],
+    "participle": [
+      "shriven",
+      "shrived"
+    ],
+    "fr": [
+      "Confesser"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2865,7 +7562,31 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "sight-read",
+    "base": "sight-read",
+    "past": [
+      "sight-read"
+    ],
+    "participle": [
+      "sight-read"
+    ],
+    "fr": [
+      "Déchiffrer à vue"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2889,7 +7610,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2915,7 +7637,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2939,7 +7662,31 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "skywrite",
+    "base": "skywrite",
+    "past": [
+      "skywrote"
+    ],
+    "participle": [
+      "skywritten"
+    ],
+    "fr": [
+      "Écrire dans le ciel"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -2949,10 +7696,12 @@
     "id": "slay",
     "base": "slay",
     "past": [
-      "slew"
+      "slew",
+      "slayed"
     ],
     "participle": [
-      "slain"
+      "slain",
+      "slayed"
     ],
     "fr": [
       "tuer",
@@ -2962,7 +7711,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -2985,7 +7736,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3009,7 +7761,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3032,7 +7785,57 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "slink",
+    "base": "slink",
+    "past": [
+      "slinked",
+      "slunk"
+    ],
+    "participle": [
+      "slinked",
+      "slunk"
+    ],
+    "fr": [
+      "S'éclipser"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "slit",
+    "base": "slit",
+    "past": [
+      "slit"
+    ],
+    "participle": [
+      "slit"
+    ],
+    "fr": [
+      "Fendre"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -3056,9 +7859,59 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
     ],
     "note": "\"smelt\" est britannique.",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "smite",
+    "base": "smite",
+    "past": [
+      "smote"
+    ],
+    "participle": [
+      "smitten",
+      "smote"
+    ],
+    "fr": [
+      "Frapper"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "sneak",
+    "base": "sneak",
+    "past": [
+      "sneaked",
+      "snuck"
+    ],
+    "participle": [
+      "sneaked",
+      "snuck"
+    ],
+    "fr": [
+      "Se faufiler"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
     "ipa": null,
     "example": null
   },
@@ -3079,7 +7932,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -3101,7 +7956,8 @@
     "rank": 31,
     "tier": 1,
     "tags": [
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3127,7 +7983,8 @@
     "rank": 92,
     "tier": 2,
     "tags": [
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3151,7 +8008,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": "\"spelt\" est britannique.",
     "ipa": null,
     "example": null
@@ -3174,7 +8033,8 @@
     "rank": 50,
     "tier": 1,
     "tags": [
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3199,7 +8059,8 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3223,7 +8084,8 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3248,7 +8110,8 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
     ],
     "note": "\"spit\" au prétérit est surtout américain.",
     "ipa": null,
@@ -3273,7 +8136,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3299,7 +8163,31 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "spoon-feed",
+    "base": "spoon-feed",
+    "past": [
+      "spoon-fed"
+    ],
+    "participle": [
+      "spoon-fed"
+    ],
+    "fr": [
+      "Nourrir à la cuillère"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3324,7 +8212,55 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "spring",
+    "base": "spring",
+    "past": [
+      "sprang",
+      "sprung"
+    ],
+    "participle": [
+      "sprung"
+    ],
+    "fr": [
+      "Bondir"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "stall-feed",
+    "base": "stall-feed",
+    "past": [
+      "stall-fed"
+    ],
+    "participle": [
+      "stall-fed"
+    ],
+    "fr": [
+      "Nourrir à l'étable"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3349,7 +8285,33 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "stave",
+    "base": "stave",
+    "past": [
+      "staved",
+      "stove"
+    ],
+    "participle": [
+      "staved",
+      "stove"
+    ],
+    "fr": [
+      "Défoncer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3374,7 +8336,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3399,7 +8362,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3422,7 +8386,8 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3445,7 +8410,33 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "strew",
+    "base": "strew",
+    "past": [
+      "strewed"
+    ],
+    "participle": [
+      "strewn",
+      "strewed"
+    ],
+    "fr": [
+      "Éparpiller"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -3466,7 +8457,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -3491,9 +8484,58 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": "\"stricken\" est réservé au sens figuré (affligé, frappé par).",
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "string",
+    "base": "string",
+    "past": [
+      "strung"
+    ],
+    "participle": [
+      "strung"
+    ],
+    "fr": [
+      "Enfiler"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "strip",
+    "base": "strip",
+    "past": [
+      "stripped",
+      "stript"
+    ],
+    "participle": [
+      "stripped",
+      "stript"
+    ],
+    "fr": [
+      "Dépouiller"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
     "ipa": null,
     "example": null
   },
@@ -3515,7 +8557,57 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "sublet",
+    "base": "sublet",
+    "past": [
+      "sublet"
+    ],
+    "participle": [
+      "sublet"
+    ],
+    "fr": [
+      "Sous-louer"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "sunburn",
+    "base": "sunburn",
+    "past": [
+      "sunburned",
+      "sunburnt"
+    ],
+    "participle": [
+      "sunburned",
+      "sunburnt"
+    ],
+    "fr": [
+      "Brûler au soleil"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -3537,7 +8629,8 @@
     "rank": 97,
     "tier": 2,
     "tags": [
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3562,7 +8655,8 @@
     "rank": 82,
     "tier": 2,
     "tags": [
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3585,7 +8679,8 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3609,7 +8704,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -3632,7 +8729,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3656,7 +8754,8 @@
     "rank": 94,
     "tier": 2,
     "tags": [
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3679,7 +8778,8 @@
     "rank": 10,
     "tier": 1,
     "tags": [
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3703,7 +8803,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3726,7 +8827,31 @@
     "rank": 98,
     "tier": 2,
     "tags": [
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "telecast",
+    "base": "telecast",
+    "past": [
+      "telecast"
+    ],
+    "participle": [
+      "telecast"
+    ],
+    "fr": [
+      "Téléviser"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3751,7 +8876,54 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "test-drive",
+    "base": "test-drive",
+    "past": [
+      "test-drove"
+    ],
+    "participle": [
+      "test-driven"
+    ],
+    "fr": [
+      "Essayer un véhicule"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "test-fly",
+    "base": "test-fly",
+    "past": [
+      "test-flew"
+    ],
+    "participle": [
+      "test-flown"
+    ],
+    "fr": [
+      "Faire un vol d'essai"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3775,7 +8947,8 @@
     "tier": 1,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3799,7 +8972,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -3823,7 +8998,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3846,7 +9022,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -3869,7 +9047,288 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "troubleshoot",
+    "base": "troubleshoot",
+    "past": [
+      "troubleshot"
+    ],
+    "participle": [
+      "troubleshot"
+    ],
+    "fr": [
+      "Dépanner"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "typecast",
+    "base": "typecast",
+    "past": [
+      "typecast"
+    ],
+    "participle": [
+      "typecast"
+    ],
+    "fr": [
+      "Enfermer dans un rôle"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "typeset",
+    "base": "typeset",
+    "past": [
+      "typeset"
+    ],
+    "participle": [
+      "typeset"
+    ],
+    "fr": [
+      "Composer un texte"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "typewrite",
+    "base": "typewrite",
+    "past": [
+      "typewrote"
+    ],
+    "participle": [
+      "typewritten"
+    ],
+    "fr": [
+      "Taper à la machine"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unbear",
+    "base": "unbear",
+    "past": [
+      "unbore"
+    ],
+    "participle": [
+      "unborn",
+      "unborne"
+    ],
+    "fr": [
+      "Desserrer la bride"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unbend",
+    "base": "unbend",
+    "past": [
+      "unbent"
+    ],
+    "participle": [
+      "unbent"
+    ],
+    "fr": [
+      "Redresser"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unbind",
+    "base": "unbind",
+    "past": [
+      "unbound"
+    ],
+    "participle": [
+      "unbound"
+    ],
+    "fr": [
+      "Délier"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unbuild",
+    "base": "unbuild",
+    "past": [
+      "unbuilt"
+    ],
+    "participle": [
+      "unbuilt"
+    ],
+    "fr": [
+      "Démolir"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unclothe",
+    "base": "unclothe",
+    "past": [
+      "unclothed",
+      "unclad"
+    ],
+    "participle": [
+      "unclothed",
+      "unclad"
+    ],
+    "fr": [
+      "Dévêtir"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "underbid",
+    "base": "underbid",
+    "past": [
+      "underbid"
+    ],
+    "participle": [
+      "underbid"
+    ],
+    "fr": [
+      "Sous-enchérir"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "undercut",
+    "base": "undercut",
+    "past": [
+      "undercut"
+    ],
+    "participle": [
+      "undercut"
+    ],
+    "fr": [
+      "Casser les prix"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "underfeed",
+    "base": "underfeed",
+    "past": [
+      "underfed"
+    ],
+    "participle": [
+      "underfed"
+    ],
+    "fr": [
+      "Sous-alimenter"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -3890,7 +9349,170 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "underlay",
+    "base": "underlay",
+    "past": [
+      "underlaid"
+    ],
+    "participle": [
+      "underlaid"
+    ],
+    "fr": [
+      "Poser dessous"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "underlet",
+    "base": "underlet",
+    "past": [
+      "underlet"
+    ],
+    "participle": [
+      "underlet"
+    ],
+    "fr": [
+      "Sous-louer"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "underlie",
+    "base": "underlie",
+    "past": [
+      "underlay"
+    ],
+    "participle": [
+      "underlain"
+    ],
+    "fr": [
+      "Sous-tendre"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "underrun",
+    "base": "underrun",
+    "past": [
+      "underran"
+    ],
+    "participle": [
+      "underrun"
+    ],
+    "fr": [
+      "Passer sous"
+    ],
+    "pattern": "ABA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "undersell",
+    "base": "undersell",
+    "past": [
+      "undersold"
+    ],
+    "participle": [
+      "undersold"
+    ],
+    "fr": [
+      "Vendre moins cher"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "undershoot",
+    "base": "undershoot",
+    "past": [
+      "undershot"
+    ],
+    "participle": [
+      "undershot"
+    ],
+    "fr": [
+      "Tirer trop court"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "underspend",
+    "base": "underspend",
+    "past": [
+      "underspent"
+    ],
+    "participle": [
+      "underspent"
+    ],
+    "fr": [
+      "Sous-dépenser"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -3912,7 +9534,8 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3934,7 +9557,594 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "underthrust",
+    "base": "underthrust",
+    "past": [
+      "underthrust"
+    ],
+    "participle": [
+      "underthrust"
+    ],
+    "fr": [
+      "Chevaucher par-dessous"
+    ],
+    "pattern": "AAA",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "underwrite",
+    "base": "underwrite",
+    "past": [
+      "underwrote"
+    ],
+    "participle": [
+      "underwritten"
+    ],
+    "fr": [
+      "Garantir"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "undo",
+    "base": "undo",
+    "past": [
+      "undid"
+    ],
+    "participle": [
+      "undone"
+    ],
+    "fr": [
+      "Défaire"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unfreeze",
+    "base": "unfreeze",
+    "past": [
+      "unfroze"
+    ],
+    "participle": [
+      "unfrozen"
+    ],
+    "fr": [
+      "Dégeler"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unhang",
+    "base": "unhang",
+    "past": [
+      "unhung"
+    ],
+    "participle": [
+      "unhung"
+    ],
+    "fr": [
+      "Décrocher"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unhide",
+    "base": "unhide",
+    "past": [
+      "unhid"
+    ],
+    "participle": [
+      "unhidden"
+    ],
+    "fr": [
+      "Rendre visible"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unhold",
+    "base": "unhold",
+    "past": [
+      "unheld"
+    ],
+    "participle": [
+      "unheld"
+    ],
+    "fr": [
+      "Lâcher"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unknit",
+    "base": "unknit",
+    "past": [
+      "unknitted",
+      "unknit"
+    ],
+    "participle": [
+      "unknitted",
+      "unknit"
+    ],
+    "fr": [
+      "Détricoter"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unlade",
+    "base": "unlade",
+    "past": [
+      "unladed"
+    ],
+    "participle": [
+      "unladen",
+      "unladed"
+    ],
+    "fr": [
+      "Décharger"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unlay",
+    "base": "unlay",
+    "past": [
+      "unlaid"
+    ],
+    "participle": [
+      "unlaid"
+    ],
+    "fr": [
+      "Décommettre"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unlearn",
+    "base": "unlearn",
+    "past": [
+      "unlearned",
+      "unlearnt"
+    ],
+    "participle": [
+      "unlearned",
+      "unlearnt"
+    ],
+    "fr": [
+      "Désapprendre"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unmake",
+    "base": "unmake",
+    "past": [
+      "unmade"
+    ],
+    "participle": [
+      "unmade"
+    ],
+    "fr": [
+      "Défaire"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unreeve",
+    "base": "unreeve",
+    "past": [
+      "unreeved",
+      "unrove"
+    ],
+    "participle": [
+      "unreeved",
+      "unrove"
+    ],
+    "fr": [
+      "Désenfiler"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unsay",
+    "base": "unsay",
+    "past": [
+      "unsaid"
+    ],
+    "participle": [
+      "unsaid"
+    ],
+    "fr": [
+      "Se dédire"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unsew",
+    "base": "unsew",
+    "past": [
+      "unsewed"
+    ],
+    "participle": [
+      "unsewn",
+      "unsewed"
+    ],
+    "fr": [
+      "Découdre"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unsling",
+    "base": "unsling",
+    "past": [
+      "unslung"
+    ],
+    "participle": [
+      "unslung"
+    ],
+    "fr": [
+      "Décrocher"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unspin",
+    "base": "unspin",
+    "past": [
+      "unspun"
+    ],
+    "participle": [
+      "unspun"
+    ],
+    "fr": [
+      "Défiler"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unstick",
+    "base": "unstick",
+    "past": [
+      "unstuck"
+    ],
+    "participle": [
+      "unstuck"
+    ],
+    "fr": [
+      "Décoller"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unstring",
+    "base": "unstring",
+    "past": [
+      "unstrung"
+    ],
+    "participle": [
+      "unstrung"
+    ],
+    "fr": [
+      "Désenfiler"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unswear",
+    "base": "unswear",
+    "past": [
+      "unswore"
+    ],
+    "participle": [
+      "unsworn"
+    ],
+    "fr": [
+      "Se dédire d'un serment"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unteach",
+    "base": "unteach",
+    "past": [
+      "untaught"
+    ],
+    "participle": [
+      "untaught"
+    ],
+    "fr": [
+      "Désapprendre à"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unthink",
+    "base": "unthink",
+    "past": [
+      "unthought"
+    ],
+    "participle": [
+      "unthought"
+    ],
+    "fr": [
+      "Chasser de son esprit"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unweave",
+    "base": "unweave",
+    "past": [
+      "unwove",
+      "unweaved"
+    ],
+    "participle": [
+      "unwoven",
+      "unweaved"
+    ],
+    "fr": [
+      "Détisser"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unwind",
+    "base": "unwind",
+    "past": [
+      "unwound"
+    ],
+    "participle": [
+      "unwound"
+    ],
+    "fr": [
+      "Dérouler"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "unwrite",
+    "base": "unwrite",
+    "past": [
+      "unwrote"
+    ],
+    "participle": [
+      "unwritten"
+    ],
+    "fr": [
+      "Effacer"
+    ],
+    "pattern": "ABC",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -3956,7 +10166,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -3979,7 +10191,33 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "vex",
+    "base": "vex",
+    "past": [
+      "vexed",
+      "vext"
+    ],
+    "participle": [
+      "vexed",
+      "vext"
+    ],
+    "fr": [
+      "Vexer"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -3989,10 +10227,12 @@
     "id": "wake",
     "base": "wake",
     "past": [
-      "woke"
+      "woke",
+      "waked"
     ],
     "participle": [
-      "woken"
+      "woken",
+      "waked"
     ],
     "fr": [
       "(se) réveiller"
@@ -4002,7 +10242,31 @@
     "rank": 84,
     "tier": 2,
     "tags": [
-      "top100"
+      "top100",
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "waylay",
+    "base": "waylay",
+    "past": [
+      "waylaid"
+    ],
+    "participle": [
+      "waylaid"
+    ],
+    "fr": [
+      "Intercepter"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -4025,7 +10289,8 @@
     "rank": 54,
     "tier": 2,
     "tags": [
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -4035,10 +10300,12 @@
     "id": "weave",
     "base": "weave",
     "past": [
-      "wove"
+      "wove",
+      "weaved"
     ],
     "participle": [
-      "woven"
+      "woven",
+      "weaved"
     ],
     "fr": [
       "tisser"
@@ -4047,7 +10314,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -4070,7 +10339,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -4091,7 +10362,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -4115,7 +10388,8 @@
     "rank": 69,
     "tier": 2,
     "tags": [
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -4139,7 +10413,8 @@
     "tier": 2,
     "tags": [
       "huito",
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -4162,7 +10437,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": "\"wind\" (vent) se prononce différemment.",
     "ipa": null,
     "example": null
@@ -4185,7 +10462,8 @@
     "rank": null,
     "tier": 3,
     "tags": [
-      "huito"
+      "huito",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,
@@ -4208,7 +10486,9 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -4229,7 +10509,32 @@
     "huitoGroup": null,
     "rank": null,
     "tier": 3,
-    "tags": [],
+    "tags": [
+      "exhaustive"
+    ],
+    "note": null,
+    "ipa": null,
+    "example": null
+  },
+  {
+    "id": "wring",
+    "base": "wring",
+    "past": [
+      "wrung"
+    ],
+    "participle": [
+      "wrung"
+    ],
+    "fr": [
+      "Tordre"
+    ],
+    "pattern": "ABB",
+    "huitoGroup": null,
+    "rank": null,
+    "tier": 3,
+    "tags": [
+      "exhaustive"
+    ],
     "note": null,
     "ipa": null,
     "example": null
@@ -4251,7 +10556,8 @@
     "rank": 37,
     "tier": 1,
     "tags": [
-      "top100"
+      "top100",
+      "exhaustive"
     ],
     "note": null,
     "ipa": null,

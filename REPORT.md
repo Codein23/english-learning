@@ -1,5 +1,28 @@
 # Rapport de construction du dataset — `verbs.json`
 
+> **Mise à jour — passage à 438 verbes.**
+> Le dataset a été étendu avec la liste exhaustive du PDF
+> *Irregular verbs Huito tableau final UPDATED* (438 lignes), transcrite dans
+> `scripts/sources/huito-exhaustive.txt` et fusionnée par `scripts/merge-dataset.mjs`.
+> Les 180 verbes ci-dessous en font tous partie et **conservent intégralement**
+> leurs métadonnées : groupe Huito, rang, tier, note pédagogique, ordre des variantes.
+> Les 258 verbes ajoutés sont en `tier: 3`, `rank: null`, `huitoGroup: null`,
+> tag `exhaustive`. Le détail chiffré est dans `scripts/dataset-report.md`.
+>
+> **Écarts assumés par rapport au PDF source :**
+> - 16 variantes supplémentaires du PDF ont été **ajoutées** aux verbes existants
+>   (`bade`, `bidden`, `hid`, `shined`, `shrunken`, `slayed`, `awakened`, `waked`,
+>   `broadcasted`, `weaved`) : refuser une forme valide en correction serait un défaut.
+>   L'ordre du dataset est conservé, donc le `pattern` calculé ne change pas.
+> - `read` : la mention `[red]` du PDF a été retirée des colonnes de formes — c'est
+>   une indication de prononciation, pas une orthographe. Elle est déjà portée par
+>   le champ `note` et sera reprise par le champ `ipa`.
+> - Une dizaine de traductions du PDF étaient des noms ou des libellés tronqués
+>   (`Inlay → « Incrustation »`, `Input → « Entrée »`, `Outbreed → « Surélever »`,
+>   `Outleap → « Sauter loin »`…). Elles ont été rendues à l'infinitif et complétées
+>   (`Incruster`, `Saisir`, `Croiser hors lignée`, `Sauter plus loin que`), sans quoi
+>   les modes de traduction auraient posé des questions incorrectes.
+
 ## Bilan
 
 | Indicateur | Valeur |

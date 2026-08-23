@@ -17,9 +17,18 @@ describe('dataset verbs.json', () => {
     expect(result.success).toBe(true);
   });
 
-  it('contient les 180 verbes attendus, sans doublon', () => {
-    expect(verbs).toHaveLength(180);
-    expect(new Set(verbs.map((verb) => verb.id)).size).toBe(180);
+  it('contient les 438 verbes attendus, sans doublon', () => {
+    expect(verbs).toHaveLength(438);
+    expect(new Set(verbs.map((verb) => verb.id)).size).toBe(438);
+  });
+
+  it('conserve les 180 verbes pédagogiques d’origine avec leurs métadonnées', () => {
+    // Les groupes Huito et les rangs ne viennent pas de la liste exhaustive :
+    // une fusion qui les perdrait casserait les filtres et la pondération.
+    const withGroup = verbs.filter((verb) => verb.huitoGroup !== null);
+    const withRank = verbs.filter((verb) => verb.rank !== null);
+    expect(withGroup).toHaveLength(108);
+    expect(withRank).toHaveLength(100);
   });
 
   it('déclare un pattern cohérent avec la 1ʳᵉ variante de chaque colonne', () => {

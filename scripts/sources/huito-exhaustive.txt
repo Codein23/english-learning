@@ -1,0 +1,443 @@
+# Source : « Irregular verbs Huito tableau final UPDATED.pdf » — liste exhaustive.
+# Transcription fidèle, une ligne par verbe : base | prétérit | participe | traduction FR.
+# Les variantes sont séparées par « / » dans le PDF et conservées telles quelles.
+# Aucune correction n'est appliquée ici : les anomalies sont traitées et signalées
+# par scripts/merge-dataset.mjs, jamais silencieusement.
+Abide|Abided/Abode|Abided|Habiter
+Alight|Alighted/Alit|Alighted/Alit|Descendre
+Arise|Arose|Arisen|Surgir
+Awake|Awoke/Awakened|Awoken/Awakened|Réveiller
+Backbite|Backbit|Backbitten|Médire
+Backslide|Backslid|Backslidden/Backslid|Rechuter
+Be|Was/Were|Been|Être
+Bear|Bore|Born/Borne|Porter
+Beat|Beat|Beaten/Beat|Battre
+Become|Became|Become|Devenir
+Befall|Befell|Befallen|S'avérer
+Beget|Begat/Begot|Begotten|Engendrer
+Begin|Began|Begun|Commencer
+Behold|Beheld|Beheld|Contempler
+Bend|Bent|Bent|Plier
+Bereave|Bereaved/Bereft|Bereaved/Bereft|Priver
+Beseech|Besought/Beseeched|Besought/Beseeched|Supplier
+Beset|Beset|Beset|Assiéger
+Bestrew|Bestrewed|Bestrewn/Bestrewed|Parsemer
+Bet|Bet/Betted|Bet/Betted|Parier
+Betake|Betook|Betaken|Se diriger
+Bethink|Bethought|Bethought|Se souvenir
+Bid|Bid/Bade|Bidden|Offrir
+Bind|Bound|Bound|Lier
+Bite|Bit|Bitten|Mordre
+Bleed|Bled|Bled|Saigner
+Blow|Blew|Blown|Souffler
+Break|Broke|Broken|Casser
+Breed|Bred|Bred|Élever
+Bring|Brought|Brought|Apporter
+Broadcast|Broadcast/Broadcasted|Broadcast/Broadcasted|Diffuser
+Browbeat|Browbeat|Browbeaten/Browbeat|Intimider
+Build|Built|Built|Construire
+Burn|Burned/Burnt|Burned/Burnt|Brûler
+Burst|Burst|Burst|Éclater
+Bust|Busted/Bust|Busted/Bust|Casser
+Buy|Bought|Bought|Acheter
+Cast|Cast|Cast|Jeter
+Catch|Caught|Caught|Attraper
+Chide|Chid/Chided|Chidden/Chided|Gronder
+Choose|Chose|Chosen|Choisir
+Clap|Clapped/Clapt|Clapped/Clapt|Applaudir
+Cling|Clung|Clung|S'agripper
+Clothe|Clothed/Clad|Clothed/Clad|Vêtir
+Come|Came|Come|Venir
+Cost|Cost|Cost|Coûter
+Creep|Crept|Crept|Ramper
+Crossbreed|Crossbred|Crossbred|Croiser
+Cut|Cut|Cut|Couper
+Dare|Dared/Durst|Dared/Durst|Oser
+Daydream|Daydreamed/Daydreamt|Daydreamed/Daydreamt|Rêver éveillé
+Deal|Dealt|Dealt|Distribuer
+Dig|Dug|Dug|Creuser
+Disprove|Disproved|Disproved/Disproven|Réfuter
+Dive|Dove/Dived|Dived|Plonger
+Do|Did|Done|Faire
+Draw|Drew|Drawn|Dessiner
+Dream|Dreamed/Dreamt|Dreamed/Dreamt|Rêver
+Drink|Drank|Drunk|Boire
+Drive|Drove|Driven|Conduire
+Dwell|Dwelt/Dwelled|Dwelt/Dwelled|Habiter
+Eat|Ate|Eaten|Manger
+Fall|Fell|Fallen|Tomber
+Feed|Fed|Fed|Nourrir
+Feel|Felt|Felt|Sentir
+Fight|Fought|Fought|Se battre
+Find|Found|Found|Trouver
+Fit|Fit/Fitted|Fit/Fitted|Correspondre
+Flee|Fled|Fled|S'enfuir
+Fling|Flung|Flung|Lancer
+Fly|Flew|Flown|Voler
+Forbear|Forbore|Forborne|S'abstenir
+Forbid|Forbade/Forbad|Forbidden|Interdire
+Forecast|Forecast/Forecasted|Forecast/Forecasted|Prévoir
+Forego|Forewent|Foregone|Renoncer
+Foresee|Foresaw|Foreseen|Prévoir
+Foretell|Foretold|Foretold|Prédire
+Forget|Forgot|Forgotten/Forgot|Oublier
+Forgive|Forgave|Forgiven|Pardonner
+Forsake|Forsook|Forsaken|Abandonner
+Forswear|Forswore|Forsworn|Abjurer
+Freeze|Froze|Frozen|Geler
+Frostbite|Frostbit|Frostbitten|Gelure
+Gainsay|Gainsaid|Gainsaid|Contredire
+Get|Got|Got/Gotten|Obtenir
+Gild|Gilded/Gilt|Gilded/Gilt|Dorer
+Give|Gave|Given|Donner
+Go|Went|Gone|Aller
+Grind|Ground|Ground|Moudre
+Grow|Grew|Grown|Grandir
+Hand-feed|Hand-fed|Hand-fed|Nourrir à la main
+Handwrite|Handwrote|Handwritten|Écrire à la main
+Hang|Hung|Hung|Accrocher
+Have|Had|Had|Avoir
+Hear|Heard|Heard|Entendre
+Heave|Heaved/Hove|Heaved/Hove|Soulever
+Hew|Hewed|Hewn/Hewed|Tailler
+Hide|Hid|Hidden/Hid|Cacher
+Hit|Hit|Hit|Frapper
+Hold|Held|Held|Tenir
+Hurt|Hurt|Hurt|Blesser
+Inlay|Inlaid|Inlaid|Incruster
+Input|Input/Inputted|Input/Inputted|Saisir
+Inset|Inset|Inset|Encastrer
+Interbreed|Interbred|Interbred|Croiser des espèces
+Interweave|Interwove/Interweaved|Interwoven/Interweaved|Entrelacer
+Interwind|Interwound|Interwound|Enrouler ensemble
+Inweave|Inwove/Inweaved|Inwoven/Inweaved|Incorporer au tissage
+Jerry-build|Jerry-built|Jerry-built|Bâtir à la va-vite
+Keep|Kept|Kept|Garder
+Kneel|Knelt/Kneeled|Knelt/Kneeled|S'agenouiller
+Knit|Knitted/Knit|Knitted/Knit|Tricoter
+Know|Knew|Known|Connaître
+Lade|Laded|Laden/Laded|Charger
+Lay|Laid|Laid|Poser
+Lead|Led|Led|Mener
+Lean|Leaned/Leant|Leaned/Leant|Pencher
+Leap|Leaped/Leapt|Leaped/Leapt|Sauter
+Learn|Learned/Learnt|Learned/Learnt|Apprendre
+Leave|Left|Left|Quitter
+Lend|Lent|Lent|Prêter
+Let|Let|Let|Laisser
+Lie|Lay|Lain|Être étendu
+Light|Lit/Lighted|Lit/Lighted|Éclairer
+Lip-read|Lip-read|Lip-read|Lire sur les lèvres
+Lose|Lost|Lost|Perdre
+Make|Made|Made|Fabriquer
+Mean|Meant|Meant|Signifier
+Meet|Met|Met|Rencontrer
+Miscast|Miscast|Miscast|Mal distribuer un rôle
+Misdeal|Misdealt|Misdealt|Mal distribuer
+Misdo|Misdid|Misdone|Mal faire
+Mishear|Misheard|Misheard|Mal entendre
+Mislay|Mislaid|Mislaid|Égarer
+Mislead|Misled|Misled|Induire en erreur
+Misread|Misread|Misread|Mal lire
+Misset|Misset|Misset|Mal régler
+Misspeak|Misspoke|Misspoken|Mal s'exprimer
+Misspell|Misspelled/Misspelt|Misspelled/Misspelt|Mal épeler
+Misspend|Misspent|Misspent|Mal dépenser
+Mistake|Mistook|Mistaken|Se tromper
+Misteach|Mistaught|Mistaught|Mal enseigner
+Misunderstand|Misunderstood|Misunderstood|Mal comprendre
+Miswrite|Miswrote|Miswritten|Mal écrire
+Mow|Mowed|Mowed/Mown|Tondre
+Offset|Offset|Offset|Compenser
+Outbid|Outbid|Outbid|Surenchérir
+Outbreed|Outbred|Outbred|Croiser hors lignée
+Outdo|Outdid|Outdone|Surpasser
+Outdraw|Outdrew|Outdrawn|Dégainer plus vite
+Outdrink|Outdrank|Outdrunk|Boire plus que
+Outdrive|Outdrove|Outdriven|Conduire mieux que
+Outfight|Outfought|Outfought|Combattre mieux que
+Outfly|Outflew|Outflown|Voler mieux que
+Outgrow|Outgrew|Outgrown|Devenir trop grand pour
+Outleap|Outleaped/Outleapt|Outleaped/Outleapt|Sauter plus loin que
+Outride|Outrode|Outridden|Chevaucher mieux que
+Outrun|Outran|Outrun|Courir plus vite que
+Outsell|Outsold|Outsold|Vendre plus que
+Outshine|Outshined/Outshone|Outshined/Outshone|Éclipser
+Outshoot|Outshot|Outshot|Tirer mieux que
+Outsing|Outsang|Outsung|Chanter mieux que
+Outsit|Outsat|Outsat|Rester assis plus longtemps
+Outsleep|Outslept|Outslept|Dormir plus que
+Outsmell|Outsmelled/Outsmelt|Outsmelled/Outsmelt|Sentir mieux que
+Outspeak|Outspoke|Outspoken|Parler mieux que
+Outspeed|Outsped|Outsped|Aller plus vite que
+Outspend|Outspent|Outspent|Dépenser plus que
+Outspin|Outspun|Outspun|Filer mieux que
+Outspring|Outsprang/Outsprung|Outsprung|Bondir plus loin
+Outstand|Outstood|Outstood|Se démarquer
+Outswear|Outswore|Outsworn|Jurer plus que
+Outswim|Outswam|Outswum|Nager mieux que
+Outtell|Outtold|Outtold|Raconter mieux que
+Outthink|Outthought|Outthought|Penser mieux que
+Outthrow|Outthrew|Outthrown|Lancer plus loin
+Outwear|Outwore|Outworn|User jusqu'au bout
+Outwind|Outwound|Outwound|Dérouler
+Outwrite|Outwrote|Outwritten|Écrire mieux que
+Overbear|Overbore|Overborne/Overborn|Dominer
+Overbid|Overbid|Overbid|Surenchérir
+Overbreed|Overbred|Overbred|Surexploiter l'élevage
+Overbuild|Overbuilt|Overbuilt|Construire à l'excès
+Overbuy|Overbought|Overbought|Acheter à l'excès
+Overcast|Overcast|Overcast|Couvrir de nuages
+Overcome|Overcame|Overcome|Surmonter
+Overcut|Overcut|Overcut|Couper à l'excès
+Overdo|Overdid|Overdone|Exagérer
+Overdraw|Overdrew|Overdrawn|Mettre à découvert
+Overdrink|Overdrank|Overdrunk|Boire à l'excès
+Overeat|Overate|Overeaten|Trop manger
+Overfeed|Overfed|Overfed|Suralimenter
+Overhang|Overhung|Overhung|Surplomber
+Overhear|Overheard|Overheard|Entendre par hasard
+Overlay|Overlaid|Overlaid|Recouvrir
+Overleap|Overleaped/Overleapt|Overleaped/Overleapt|Sauter par-dessus
+Overlie|Overlay|Overlain|Reposer sur
+Overpay|Overpaid|Overpaid|Trop payer
+Override|Overrode|Overridden|Passer outre
+Overrun|Overran|Overrun|Envahir
+Oversee|Oversaw|Overseen|Superviser
+Oversell|Oversold|Oversold|Survendre
+Overset|Overset|Overset|Renverser
+Oversew|Oversewed|Oversewn/Oversewed|Surpiquer
+Overshoot|Overshot|Overshot|Dépasser la cible
+Oversleep|Overslept|Overslept|Dormir trop longtemps
+Oversow|Oversowed|Oversown/Oversowed|Semer à l'excès
+Overspeak|Overspoke|Overspoken|Parler trop
+Overspend|Overspent|Overspent|Trop dépenser
+Overspill|Overspilled/Overspilt|Overspilled/Overspilt|Déborder
+Overspin|Overspun|Overspun|Filer à l'excès
+Overspread|Overspread|Overspread|Se répandre sur
+Overspring|Oversprang/Oversprung|Oversprung|Bondir par-dessus
+Overstand|Overstood|Overstood|Rester debout trop longtemps
+Overstrew|Overstrewed|Overstrewn/Overstrewed|Joncher
+Overstride|Overstrode|Overstridden|Enjamber
+Overstrike|Overstruck|Overstruck|Surfrapper
+Overtake|Overtook|Overtaken|Rattraper
+Overthink|Overthought|Overthought|Trop réfléchir
+Overthrow|Overthrew|Overthrown|Renverser
+Overwear|Overwore|Overworn|User à force de porter
+Overwind|Overwound|Overwound|Trop remonter
+Overwrite|Overwrote|Overwritten|Écraser
+Partake|Partook|Partaken|Participer
+Pay|Paid|Paid|Payer
+Plead|Pleaded/Pled|Pleaded/Pled|Plaider
+Prebuild|Prebuilt|Prebuilt|Préfabriquer
+Predo|Predid|Predone|Faire à l'avance
+Premake|Premade|Premade|Préfabriquer
+Prepay|Prepaid|Prepaid|Payer d'avance
+Presell|Presold|Presold|Prévendre
+Preset|Preset|Preset|Prérégler
+Preshrink|Preshrank|Preshrunk|Prérétrécir
+Presplit|Presplit|Presplit|Préfendre
+Proofread|Proofread|Proofread|Relire des épreuves
+Prove|Proved|Proven/Proved|Prouver
+Put|Put|Put|Mettre
+Quick-freeze|Quick-froze|Quick-frozen|Surgeler
+Quit|Quit/Quitted|Quit/Quitted|Quitter
+Read|Read|Read|Lire
+Reawake|Reawoke|Reawaken|Rééveiller
+Rebid|Rebid|Rebid|Surenchérir de nouveau
+Rebind|Rebound|Rebound|Relier de nouveau
+Rebroadcast|Rebroadcast/Rebroadcasted|Rebroadcast/Rebroadcasted|Rediffuser
+Rebuild|Rebuilt|Rebuilt|Reconstruire
+Recast|Recast|Recast|Refondre
+Recut|Recut|Recut|Recouper
+Redeal|Redealt|Redealt|Redistribuer
+Redo|Redid|Redone|Refaire
+Redraw|Redrew|Redrawn|Redessiner
+Reeve|Reeved/Rove|Reeved/Rove|Enfiler un cordage
+Refit|Refit/Refitted|Refit/Refitted|Réajuster
+Regrind|Reground|Reground|Remoudre
+Regrow|Regrew|Regrown|Repousser
+Rehang|Rehung|Rehung|Raccrocher
+Rehear|Reheard|Reheard|Réentendre
+Reknit|Reknitted/Reknit|Reknitted/Reknit|Retricoter
+Relay|Relaid|Relaid|Reposer
+Relearn|Relearned/Relearnt|Relearned/Relearnt|Réapprendre
+Relight|Relit/Relighted|Relit/Relighted|Rallumer
+Remake|Remade|Remade|Refaire
+Rend|Rent/Rended|Rent/Rended|Déchirer
+Repay|Repaid|Repaid|Rembourser
+Reread|Reread|Reread|Relire
+Rerun|Reran|Rerun|Rediffuser
+Resell|Resold|Resold|Revendre
+Resend|Resent|Resent|Renvoyer
+Reset|Reset|Reset|Réinitialiser
+Resew|Resewed|Resewn/Resewed|Recoudre
+Retake|Retook|Retaken|Reprendre
+Reteach|Retaught|Retaught|Réenseigner
+Retear|Retore|Retorn|Redéchirer
+Retell|Retold|Retold|Redire
+Rethink|Rethought|Rethought|Reconsidérer
+Retread|Retread|Retread|Rechaper
+Retrofit|Retrofitted/Retrofit|Retrofitted/Retrofit|Moderniser
+Rewake|Rewoke/Rewaked|Rewaken/Rewaked|Rééveiller
+Rewear|Rewore|Reworn|Remettre
+Reweave|Rewove/Reweaved|Rewoven/Reweaved|Retisser
+Rewed|Rewed/Rewedded|Rewed/Rewedded|Remarier
+Rewet|Rewet/Rewetted|Rewet/Rewetted|Remouiller
+Rewin|Rewon|Rewon|Regagner
+Rewind|Rewound|Rewound|Rembobiner
+Rewrite|Rewrote|Rewritten|Réécrire
+Rid|Rid|Rid|Débarrasser
+Ride|Rode|Ridden|Monter
+Ring|Rang|Rung|Sonner
+Rise|Rose|Risen|S'élever
+Rive|Rived|Riven/Rived|Fendre
+Roughcast|Roughcast|Roughcast|Crépir
+Run|Ran|Run|Courir
+Sand-cast|Sand-cast|Sand-cast|Couler en sable
+Saw|Sawed|Sawed/Sawn|Scier
+Say|Said|Said|Dire
+See|Saw|Seen|Voir
+Seek|Sought|Sought|Chercher
+Self-feed|Self-fed|Self-fed|S'auto-alimenter
+Self-sow|Self-sowed|Self-sown/Self-sowed|Se ressemer seul
+Sell|Sold|Sold|Vendre
+Send|Sent|Sent|Envoyer
+Set|Set|Set|Poser
+Sew|Sewed|Sewn/Sewed|Coudre
+Shake|Shook|Shaken|Secouer
+Shave|Shaved|Shaved/Shaven|Raser
+Shear|Sheared|Sheared/Shorn|Tondre
+Shed|Shed|Shed|Perdre ses feuilles
+Shine|Shined/Shone|Shined/Shone|Briller
+Shit|Shit/Shat/Shitted|Shit/Shat/Shitted|Déféquer
+Shoe|Shoed/Shod|Shoed/Shod|Ferrer
+Shoot|Shot|Shot|Tirer
+Show|Showed|Shown/Showed|Montrer
+Shrink|Shrank/Shrunk|Shrunk/Shrunken|Rétrécir
+Shrive|Shrived/Shrove|Shriven/Shrived|Confesser
+Shut|Shut|Shut|Fermer
+Sight-read|Sight-read|Sight-read|Déchiffrer à vue
+Sing|Sang|Sung|Chanter
+Sink|Sank/Sunk|Sunk|Couler
+Sit|Sat|Sat|S'asseoir
+Skywrite|Skywrote|Skywritten|Écrire dans le ciel
+Slay|Slew/Slayed|Slain/Slayed|Tuer
+Sleep|Slept|Slept|Dormir
+Slide|Slid|Slid|Glisser
+Sling|Slung|Slung|Lancer
+Slink|Slinked/Slunk|Slinked/Slunk|S'éclipser
+Slit|Slit|Slit|Fendre
+Smell|Smelled/Smelt|Smelled/Smelt|Sentir
+Smite|Smote|Smitten/Smote|Frapper
+Sneak|Sneaked/Snuck|Sneaked/Snuck|Se faufiler
+Sow|Sowed|Sown/Sowed|Semer
+Speak|Spoke|Spoken|Parler
+Speed|Sped/Speeded|Sped/Speeded|Accélérer
+Spell|Spelled/Spelt|Spelled/Spelt|Épeler
+Spend|Spent|Spent|Dépenser
+Spill|Spilled/Spilt|Spilled/Spilt|Renverser
+Spin|Spun|Spun|Tourner
+Spit|Spit/Spat|Spit/Spat|Cracher
+Split|Split|Split|Fendre
+Spoil|Spoiled/Spoilt|Spoiled/Spoilt|Gâcher
+Spoon-feed|Spoon-fed|Spoon-fed|Nourrir à la cuillère
+Spread|Spread|Spread|Étaler
+Spring|Sprang/Sprung|Sprung|Bondir
+Stall-feed|Stall-fed|Stall-fed|Nourrir à l'étable
+Stand|Stood|Stood|Se tenir debout
+Stave|Staved/Stove|Staved/Stove|Défoncer
+Steal|Stole|Stolen|Voler
+Stick|Stuck|Stuck|Coller
+Sting|Stung|Stung|Piquer
+Stink|Stunk/Stank|Stunk|Puer
+Strew|Strewed|Strewn/Strewed|Éparpiller
+Stride|Strode|Stridden|Marcher à grands pas
+Strike|Struck|Struck/Stricken|Frapper
+String|Strung|Strung|Enfiler
+Strip|Stripped/Stript|Stripped/Stript|Dépouiller
+Strive|Strove/Strived|Striven/Strived|S'efforcer
+Sublet|Sublet|Sublet|Sous-louer
+Sunburn|Sunburned/Sunburnt|Sunburned/Sunburnt|Brûler au soleil
+Swear|Swore|Sworn|Jurer
+Sweat|Sweat/Sweated|Sweat/Sweated|Transpirer
+Sweep|Swept|Swept|Balayer
+Swell|Swelled|Swollen/Swelled|Enfler
+Swim|Swam|Swum|Nager
+Swing|Swung|Swung|Balancer
+Take|Took|Taken|Prendre
+Teach|Taught|Taught|Enseigner
+Tear|Tore|Torn|Déchirer
+Telecast|Telecast|Telecast|Téléviser
+Tell|Told|Told|Dire
+Test-drive|Test-drove|Test-driven|Essayer un véhicule
+Test-fly|Test-flew|Test-flown|Faire un vol d'essai
+Think|Thought|Thought|Penser
+Thrive|Thrived/Throve|Thrived/Thriven|Prospérer
+Throw|Threw|Thrown|Jeter
+Thrust|Thrust|Thrust|Enfoncer
+Tread|Trod|Trodden/Trod|Marcher sur
+Troubleshoot|Troubleshot|Troubleshot|Dépanner
+Typecast|Typecast|Typecast|Enfermer dans un rôle
+Typeset|Typeset|Typeset|Composer un texte
+Typewrite|Typewrote|Typewritten|Taper à la machine
+Unbear|Unbore|Unborn/Unborne|Desserrer la bride
+Unbend|Unbent|Unbent|Redresser
+Unbind|Unbound|Unbound|Délier
+Unbuild|Unbuilt|Unbuilt|Démolir
+Unclothe|Unclothed/Unclad|Unclothed/Unclad|Dévêtir
+Underbid|Underbid|Underbid|Sous-enchérir
+Undercut|Undercut|Undercut|Casser les prix
+Underfeed|Underfed|Underfed|Sous-alimenter
+Undergo|Underwent|Undergone|Subir
+Underlay|Underlaid|Underlaid|Poser dessous
+Underlet|Underlet|Underlet|Sous-louer
+Underlie|Underlay|Underlain|Sous-tendre
+Underrun|Underran|Underrun|Passer sous
+Undersell|Undersold|Undersold|Vendre moins cher
+Undershoot|Undershot|Undershot|Tirer trop court
+Underspend|Underspent|Underspent|Sous-dépenser
+Understand|Understood|Understood|Comprendre
+Undertake|Undertook|Undertaken|Entreprendre
+Underthrust|Underthrust|Underthrust|Chevaucher par-dessous
+Underwrite|Underwrote|Underwritten|Garantir
+Undo|Undid|Undone|Défaire
+Unfreeze|Unfroze|Unfrozen|Dégeler
+Unhang|Unhung|Unhung|Décrocher
+Unhide|Unhid|Unhidden|Rendre visible
+Unhold|Unheld|Unheld|Lâcher
+Unknit|Unknitted/Unknit|Unknitted/Unknit|Détricoter
+Unlade|Unladed|Unladen/Unladed|Décharger
+Unlay|Unlaid|Unlaid|Décommettre
+Unlearn|Unlearned/Unlearnt|Unlearned/Unlearnt|Désapprendre
+Unmake|Unmade|Unmade|Défaire
+Unreeve|Unreeved/Unrove|Unreeved/Unrove|Désenfiler
+Unsay|Unsaid|Unsaid|Se dédire
+Unsew|Unsewed|Unsewn/Unsewed|Découdre
+Unsling|Unslung|Unslung|Décrocher
+Unspin|Unspun|Unspun|Défiler
+Unstick|Unstuck|Unstuck|Décoller
+Unstring|Unstrung|Unstrung|Désenfiler
+Unswear|Unswore|Unsworn|Se dédire d'un serment
+Unteach|Untaught|Untaught|Désapprendre à
+Unthink|Unthought|Unthought|Chasser de son esprit
+Unweave|Unwove/Unweaved|Unwoven/Unweaved|Détisser
+Unwind|Unwound|Unwound|Dérouler
+Unwrite|Unwrote|Unwritten|Effacer
+Uphold|Upheld|Upheld|Soutenir
+Upset|Upset|Upset|Contrarier
+Vex|Vexed/Vext|Vexed/Vext|Vexer
+Wake|Woke/Waked|Woken/Waked|Réveiller
+Waylay|Waylaid|Waylaid|Intercepter
+Wear|Wore|Worn|Porter
+Weave|Wove/Weaved|Woven/Weaved|Tisser
+Wed|Wed/Wedded|Wed/Wedded|Épouser
+Weep|Wept|Wept|Pleurer
+Wet|Wet/Wetted|Wet/Wetted|Mouiller
+Win|Won|Won|Gagner
+Wind|Wound|Wound|Enrouler
+Withdraw|Withdrew|Withdrawn|Retirer
+Withhold|Withheld|Withheld|Retenir
+Withstand|Withstood|Withstood|Résister
+Wring|Wrung|Wrung|Tordre
+Write|Wrote|Written|Écrire

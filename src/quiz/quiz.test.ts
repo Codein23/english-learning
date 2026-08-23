@@ -117,7 +117,12 @@ describe('generateSession', () => {
   });
 
   it('privilégie les verbes faibles quand la pondération SRS est active', () => {
-    const weak = ['read', 'lie', 'hang'];
+    // Le tirage est aléatoire : on mesure une tendance sur 40 sessions plutôt
+    // que d'imposer un seuil sur un tirage unique, qui dépendrait de la taille
+    // du dataset et casserait à chaque ajout de verbes.
+    const weak = ['read', 'lie', 'hang', 'shine', 'bear'];
+    const strong = ['eat', 'buy', 'come', 'beat', 'write'];
+
     const progress: ProgressSnapshot = {
       byVerb: Object.fromEntries(
         verbs.map((verb) => [
@@ -131,13 +136,42 @@ describe('generateSession', () => {
       mistakeVerbIds: [],
     };
 
+    let weakDraws = 0;
+    let strongDraws = 0;
+
+    for (let seed = 1; seed <= 40; seed += 1) {
+      const drawn = new Set(
+        generateSession(
+          config({ modes: ['mcq'], questionCount: 20, srsWeighting: true, seed }),
+          verbs,
+          progress,
+        ).flatMap((question) => question.verbIds),
+      );
+      weakDraws += weak.filter((id) => drawn.has(id)).length;
+      strongDraws += strong.filter((id) => drawn.has(id)).length;
+    }
+
+    // Même nombre de verbes de chaque côté : la comparaison est directe.
+    expect(weakDraws).toBeGreaterThan(strongDraws * 2);
+  });
+
+  it('ignore la pondération SRS quand elle est désactivée', () => {
+    const progress: ProgressSnapshot = {
+      byVerb: Object.fromEntries(
+        verbs.map((verb) => [
+          verb.id,
+          { attempts: 10, correct: 1, streak: 0, box: 1, lastSeen: null },
+        ]),
+      ),
+      favorites: [],
+      mistakeVerbIds: [],
+    };
     const questions = generateSession(
-      config({ modes: ['mcq'], questionCount: 12, srsWeighting: true }),
+      config({ modes: ['mcq'], questionCount: 10, srsWeighting: false }),
       verbs,
       progress,
     );
-    const drawn = new Set(questions.flatMap((question) => question.verbIds));
-    expect(weak.filter((id) => drawn.has(id)).length).toBeGreaterThanOrEqual(2);
+    expect(questions).toHaveLength(10);
   });
 
   it('compte le bon nombre de verbes nécessaires pour un mode par lot', () => {
