@@ -405,10 +405,14 @@ const withIpa = Object.values(manifest.forms).filter((entry) => entry.ipa).lengt
 const coverage = (value) => `${((value / uniqueForms.length) * 100).toFixed(1)} %`;
 
 // Le champ `ipa` du dataset porte la prononciation de la **base**.
-let ipaFilled = 0;
-const updatedVerbs = verbs.map((verb) => {
+//
+// Le dataset est **relu ici**, et non réutilisé depuis le chargement initial :
+// l'exécution dure plusieurs heures, et un autre script (phrases d'exemple) a
+// pu écrire entre-temps. Écrire une copie vieille de deux heures effacerait
+// silencieusement ce travail.
+const currentVerbs = JSON.parse(await readFile(DATASET, 'utf8'));
+const updatedVerbs = currentVerbs.map((verb) => {
   const ipa = ipaByForm.get(verb.base.toLowerCase()) ?? verb.ipa;
-  if (ipa && ipa !== verb.ipa) ipaFilled += 1;
   return { ...verb, ipa: ipa ?? null };
 });
 const verbsWithIpa = updatedVerbs.filter((verb) => verb.ipa).length;

@@ -104,3 +104,31 @@ swear|She swore she had locked the door.
 tear|He tore the letter in half.
 cast|The tree cast a long shadow.
 swim|We swam across the bay.
+#
+# Lot 2 — les verbes des groupes pédagogiques Huito absents du top 100.
+become|The weather became colder after sunset.
+bleed|His knee bled through the bandage.
+broadcast|The match was broadcast live from Lyon.
+burn|She burnt the toast again.
+creep|The cat crept along the wall.
+dream|I dreamt about the exam all night.
+feed|We fed the ducks by the canal.
+forbid|The doctor forbade any coffee after six.
+forget|He had forgotten his umbrella at the office.
+grind|She ground the coffee beans by hand.
+lend|My neighbour lent me his ladder.
+quit|He quit his job in October.
+seek|They sought shelter under the bridge.
+shake|The explosion shook every window on the street.
+shoot|The photographer shot the whole series in Iceland.
+shrink|My jumper shrank in the wash.
+smell|The kitchen smelt of burnt sugar.
+spill|She spilt her tea on the keyboard.
+spin|The wheel spun for several seconds.
+spit|The camel spat at the tourist.
+spoil|The heat spoilt the milk.
+sting|A wasp stung him on the wrist.
+sweep|He swept the yard before breakfast.
+understand|Nobody understood the instructions.
+upset|The delay upset the whole schedule.
+withdraw|She withdrew fifty euros from the machine.
