@@ -25,7 +25,11 @@ export function Flashcard({
             {question.base}
           </p>
           <SpeakButton
-            sequence={[question.base, question.past[0] ?? '', question.participle[0] ?? '']}
+            sequence={[
+              { text: question.base, role: 'base' },
+              { text: question.past[0] ?? '', role: 'past' },
+              { text: question.participle[0] ?? '', role: 'participle' },
+            ]}
             label="Écouter les trois formes"
             size="sm"
           />

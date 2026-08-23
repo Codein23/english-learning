@@ -1,0 +1,106 @@
+# Phrases d'exemple — une ligne par verbe : id|phrase.
+# Contrainte : 12 mots maximum, et la phrase emploie le **prétérit ou le participe**,
+# jamais la base verbale. Appliquées au dataset par scripts/apply-examples.mjs,
+# qui vérifie ces deux règles et refuse toute phrase qui les enfreint.
+#
+# Lot 1 — les 100 verbes du top 100 englishpage (tiers 1 et 2).
+be|The library was closed when we arrived.
+have|She had breakfast before the meeting started.
+say|He said nothing about the missing keys.
+do|They had done the dishes before dinner.
+know|I knew the answer, but I stayed quiet.
+get|We got the tickets an hour before departure.
+come|Winter came early that year.
+go|She has gone to Dublin for the week.
+see|I saw your brother at the station.
+take|He took the wrong train twice.
+think|I thought you were joking.
+make|They made a mistake on the invoice.
+tell|Nobody told me about the change.
+put|She put the letter in her pocket.
+find|We found the keys under the sofa.
+read|I read that article twice last night.
+give|He gave her his umbrella.
+feel|She felt tired after the long flight.
+hear|We heard the news on the radio.
+leave|They left before the storm arrived.
+keep|He kept the receipt for months.
+sit|We sat near the window.
+mean|I never meant to hurt you.
+run|She has run three marathons.
+let|They let us leave early.
+set|He set the alarm for six.
+begin|The film had begun when we arrived.
+stand|We stood in line for an hour.
+hold|She held the door for me.
+bring|He brought his own tools.
+speak|Nobody has spoken to the manager yet.
+light|She lit a candle during the blackout.
+meet|We met at a conference in Lyon.
+hurt|He hurt his knee playing football.
+hit|The ball hit the kitchen window.
+cost|The repair cost more than expected.
+write|She has written four novels.
+eat|We had eaten before the show.
+buy|They bought the flat last spring.
+cut|He cut his finger on the tin.
+lose|I lost my passport in Rome.
+show|She has shown me the photographs.
+drive|He drove all night.
+shut|She shut the window quietly.
+catch|The police caught the thief.
+break|Someone has broken the coffee machine.
+send|I sent the parcel on Monday.
+fall|The temperature fell below zero.
+hang|He hung his coat behind the door.
+spend|We spent the weekend in the mountains.
+pay|She paid the bill in cash.
+lie|The dog lay by the fire all evening.
+drink|He had drunk two coffees before noon.
+wear|She wore her grandmother's ring.
+lay|He laid the map on the table.
+bite|The neighbour's dog bit the postman.
+rise|The sun rose behind the hills.
+sleep|I slept badly last night.
+draw|She drew a map on a napkin.
+lead|That road led us to the lake.
+grow|The children have grown quickly.
+ring|The phone rang during dinner.
+hide|He hid the presents in the attic.
+throw|She threw the ball over the fence.
+deal|He dealt the cards slowly.
+beat|Our team beat theirs by two goals.
+teach|She taught mathematics for twenty years.
+fit|The jacket fit him perfectly.
+wet|The rain wet the whole terrace.
+bet|He bet ten euros on the wrong horse.
+stick|The door stuck after the rain.
+spread|The news spread across the village.
+choose|They chose the cheaper option.
+fly|We flew to Lisbon in April.
+prove|The test has proven our theory.
+blow|The wind blew the roof tiles away.
+sell|He sold his motorbike last year.
+fight|They fought about money for years.
+slide|The glass slid across the table.
+steal|Someone stole my bicycle.
+build|They built the bridge in two years.
+sweat|He sweat through his shirt during the match.
+sing|She sang at her sister's wedding.
+wake|I woke before the alarm.
+strike|Lightning struck the old oak.
+burst|The pipe burst during the frost.
+ride|We rode along the canal.
+split|He split the bill with his brother.
+bear|She has borne the costs alone.
+win|Our team won the final.
+freeze|The lake froze overnight.
+speed|The car sped past the school.
+dig|They dug a hole for the tree.
+swing|The gate swung in the wind.
+sink|The boat sank near the harbour.
+bend|He bent the wire into a hook.
+swear|She swore she had locked the door.
+tear|He tore the letter in half.
+cast|The tree cast a long shadow.
+swim|We swam across the bay.

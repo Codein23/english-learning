@@ -3,7 +3,7 @@ import { AppShell } from '@/components/AppShell';
 import { HomePage } from '@/pages/Home';
 import { VerbsPage } from '@/pages/Verbs';
 import { VerbDetailPage } from '@/pages/VerbDetail';
-import { CreditsPage } from '@/pages/Placeholders';
+import { CreditsPage } from '@/pages/Credits';
 import { StatsPage } from '@/pages/Stats';
 import { QuizSetupPage } from '@/pages/QuizSetup';
 import { QuizRunPage } from '@/pages/QuizRun';

@@ -4,6 +4,7 @@ import { ChevronRight, Search, SearchX, Star, X } from 'lucide-react';
 import { PageTitle } from '@/components/ui/PageTitle';
 import { Button } from '@/components/ui/Button';
 import { EmptyState } from '@/components/ui/EmptyState';
+import { SpeakButton } from '@/components/ui/SpeakButton';
 import { GroupChip, MasteredBadge, PatternTag, TierTag } from '@/components/ui/Tags';
 import { countByGroup, countByPattern, countByTier, verbs } from '@/data/verbs';
 import { HUITO_GROUPS, PATTERNS, type HuitoGroup, type Pattern, type Verb } from '@/data/schema';
@@ -289,6 +290,15 @@ function VerbRow({
             {mastered ? <MasteredBadge /> : null}
           </div>
         </Link>
+
+        <SpeakButton
+          sequence={[
+            { text: verb.base, role: 'base' },
+            { text: verb.past[0] ?? '', role: 'past' },
+            { text: verb.participle[0] ?? '', role: 'participle' },
+          ]}
+          label={`Écouter les trois formes de ${verb.base}`}
+        />
 
         <button
           type="button"

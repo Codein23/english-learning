@@ -3,6 +3,9 @@ import { AlertTriangle, ArrowLeft, Star } from 'lucide-react';
 import { Button, ButtonLink } from '@/components/ui/Button';
 import { GroupChip, MasteredBadge, PatternTag, TierTag } from '@/components/ui/Tags';
 import { getVerb } from '@/data/verbs';
+import type { Verb, VerbForm } from '@/data/schema';
+import { SpeakButton } from '@/components/ui/SpeakButton';
+import { useIpa } from '@/lib/useAudio';
 import { PATTERN_EXAMPLE, TIER_LABEL } from '@/lib/groups';
 import { formatCount, formatPercent, formatSeconds, formatDayDelta } from '@/lib/format';
 import { accuracy, isMastered, useProgress } from '@/store/progress';
@@ -84,10 +87,12 @@ export function VerbDetailPage() {
           Les trois formes
         </h2>
         <ul className="divide-y divide-border overflow-hidden rounded-[var(--radius-card)] border border-border">
-          <FormRow label="Base" values={[verb.base]} />
-          <FormRow label="Prétérit" values={verb.past} />
-          <FormRow label="Participe passé" values={verb.participle} />
+          <FormRow label="Base" values={[verb.base]} role="base" />
+          <FormRow label="Prétérit" values={verb.past} role="past" />
+          <FormRow label="Participe passé" values={verb.participle} role="participle" />
         </ul>
+
+        <SpeakButtonRow verb={verb} />
         <p className="text-xs text-muted">
           Schéma {verb.pattern} — {PATTERN_EXAMPLE[verb.pattern]}. Toute variante listée est
           acceptée en correction.
@@ -154,14 +159,50 @@ export function VerbDetailPage() {
   );
 }
 
-function FormRow({ label, values }: { label: string; values: readonly string[] }) {
+function FormRow({
+  label,
+  values,
+  role,
+}: {
+  label: string;
+  values: readonly string[];
+  role: VerbForm;
+}) {
+  const primary = values[0] ?? '';
+  const ipa = useIpa(primary, role);
+
   return (
-    <li className="flex items-baseline gap-4 bg-surface px-4 py-3">
-      <span className="w-32 shrink-0 text-sm text-muted">{label}</span>
-      <span lang="en" className="text-lg font-semibold">
+    <li className="flex items-center gap-3 bg-surface px-3 py-2">
+      <span className="w-28 shrink-0 pl-1 text-sm text-muted">{label}</span>
+      <span lang="en" className="min-w-0 text-lg font-semibold">
         {values.join(' · ')}
       </span>
+      {ipa ? <span className="text-sm text-muted">{ipa}</span> : null}
+      <SpeakButton
+        text={primary}
+        role={role}
+        label={`Écouter « ${primary} »`}
+        className="ml-auto"
+      />
     </li>
+  );
+}
+
+/** Écoute des trois formes d'affilée, comme sur un dictionnaire en ligne. */
+function SpeakButtonRow({ verb }: { verb: Verb }) {
+  return (
+    <div className="flex items-center gap-2">
+      <SpeakButton
+        sequence={[
+          { text: verb.base, role: 'base' },
+          { text: verb.past[0] ?? '', role: 'past' },
+          { text: verb.participle[0] ?? '', role: 'participle' },
+        ]}
+        label="Écouter les trois formes à la suite"
+        size="sm"
+      />
+      <span className="text-xs text-muted">Écouter le triplet</span>
+    </div>
   );
 }
 
