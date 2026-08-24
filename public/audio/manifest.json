@@ -1479,13 +1479,37 @@
       "ipa": "/ɹɛd/",
       "roles": [
         "past"
-      ]
+      ],
+      "us": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/En-us-red.ogg",
+        "title": "File:En-us-red.ogg",
+        "author": "Dvortygirl",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEn-us-red.ogg",
+        "ext": "mp3",
+        "bytes": 10681,
+        "substitutedWord": "red",
+        "reason": "le prétérit de read se prononce [ɹɛd], comme la couleur"
+      }
     },
     "read__participle": {
       "ipa": "/ɹɛd/",
       "roles": [
         "participle"
-      ]
+      ],
+      "us": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/En-us-red.ogg",
+        "title": "File:En-us-red.ogg",
+        "author": "Dvortygirl",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEn-us-red.ogg",
+        "ext": "mp3",
+        "bytes": 10681,
+        "substitutedWord": "red",
+        "reason": "le participe de read se prononce [ɹɛd], comme la couleur"
+      }
     },
     "run": {
       "ipa": "/ɹʊn/",
