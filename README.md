@@ -87,6 +87,39 @@ Clés `el:v1:*` dans `localStorage`, via `src/lib/storage.ts`.
 Le stockage indisponible (mode privé, quota) n'interrompt jamais l'application :
 un avertissement s'affiche dans `#/settings` et la session continue en mémoire.
 
+## Banque audio
+
+Trois sources, interrogées en cascade par trois scripts distincts. Chacun est
+incrémental : il ne retélécharge jamais ce qui existe, et peut être interrompu.
+
+```bash
+npm run build:audio            # 1. Free Dictionary API (MP3 + transcriptions IPA)
+npm run build:audio:commons    # 2. Wikimedia Commons par convention de nommage
+npm run build:audio:wiktionary # 3. médias référencés par le Wiktionnaire
+```
+
+Pourquoi trois passes plutôt qu'une : la Free Dictionary API n'indexe que des
+**entrées de dictionnaire**. `eat` existe, `ate` non — or ce sont précisément les
+formes fléchies qu'on veut faire entendre. La passe 2 récupère les fichiers
+nommés `En-us-ate.ogg` sur Commons ; la passe 3 récupère les enregistrements
+**Lingua Libre**, nommés par locuteur (`LL-Q1860 (eng)-Vealhurl-swum.wav`) et donc
+impossibles à deviner, mais listés par les pages du Wiktionnaire.
+
+Contraintes découvertes en route, toutes documentées dans `scripts/audio-report.md` :
+
+- l'API limite à ~1 requête/seconde ; au-delà elle ne renvoie que des 429 ;
+- son CDN média répond parfois 502, d'où le repli sur les fichiers d'origine ;
+- Wikimedia refuse les User-Agent génériques ; le nôtre porte l'URL du projet ;
+- les fichiers Commons sont en `.ogg` ou `.wav` : sans ffmpeg, aucune conversion
+  n'est possible, donc le manifeste déclare l'extension réelle et le runtime
+  retombe sur la synthèse vocale si le navigateur ne sait pas lire le format ;
+- la même graphie existe dans d'autres langues — la page « ate » du Wiktionnaire
+  référence un fichier **basque**. Seuls les fichiers `LL-Q1860 (eng)` sont retenus.
+
+Le manifeste `public/audio/manifest.json` décrit, pour chaque forme, les fichiers
+disponibles par accent (`us`, `uk`, `any`), leur licence et leur auteur. La page
+`#/credits` est générée à partir de lui.
+
 ## Synchronisation multi-appareils
 
 Optionnelle et désactivée tant que la variable de build `VITE_SYNC_URL` est vide.

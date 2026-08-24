@@ -26,6 +26,8 @@ interface AudioSource {
 interface ManifestEntry {
   us?: AudioSource;
   uk?: AudioSource;
+  /** Enregistrement humain dont l'accent n'est pas déclaré (Lingua Libre). */
+  any?: AudioSource;
   ipa?: string | null;
   roles?: string[];
 }
@@ -89,13 +91,14 @@ function fileUrl(manifest: Manifest, form: string, role: VerbForm | undefined, a
     const entry = manifest.forms[key];
     if (!entry) continue;
 
-    // Repli sur l'autre accent plutôt que sur la synthèse : un enregistrement
-    // humain avec le mauvais accent reste meilleur qu'une voix robotique.
-    const resolved = entry[accent] ? accent : entry[other] ? other : null;
-    if (resolved === null) continue;
+    // Ordre de repli : accent demandé, puis l'autre accent, puis un
+    // enregistrement d'accent inconnu. Une voix humaine mal accentuée reste
+    // préférable à une voix de synthèse.
+    const chosen = entry[accent] ? accent : entry[other] ? other : entry.any ? 'any' : null;
+    if (chosen === null) continue;
 
-    const ext = entry[resolved]?.ext ?? 'mp3';
-    return `${BASE}audio/${resolved}/${key}.${ext}`;
+    const ext = entry[chosen]?.ext ?? 'mp3';
+    return `${BASE}audio/${chosen}/${key}.${ext}`;
   }
   return null;
 }

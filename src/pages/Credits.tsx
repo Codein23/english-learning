@@ -19,7 +19,7 @@ interface AudioSource {
 
 interface Manifest {
   generatedAt?: string;
-  forms: Record<string, { us?: AudioSource; uk?: AudioSource }>;
+  forms: Record<string, { us?: AudioSource; uk?: AudioSource; any?: AudioSource }>;
 }
 
 interface Attribution {
@@ -52,7 +52,7 @@ export function CreditsPage() {
   const attributions = groupAttributions(manifest);
   const recordings = manifest
     ? Object.values(manifest.forms).reduce(
-        (sum, entry) => sum + (entry.us ? 1 : 0) + (entry.uk ? 1 : 0),
+        (sum, entry) => sum + (entry.us ? 1 : 0) + (entry.uk ? 1 : 0) + (entry.any ? 1 : 0),
         0,
       )
     : 0;
@@ -150,7 +150,7 @@ function groupAttributions(manifest: Manifest | null): Attribution[] {
   const groups = new Map<string, Attribution>();
 
   for (const entry of Object.values(manifest.forms)) {
-    for (const source of [entry.us, entry.uk]) {
+    for (const source of [entry.us, entry.uk, entry.any]) {
       // Un enregistrement sans auteur connu ne peut pas être attribué : il est
       // compté sous une mention explicite plutôt que passé sous silence.
       if (!source) continue;
