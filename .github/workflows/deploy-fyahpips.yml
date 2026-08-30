@@ -1,0 +1,38 @@
+name: Deploy to fyahpips.com
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+        env:
+          VITE_SYNC_URL: ${{ vars.SYNC_URL }}
+
+      - name: Deploy to fyahpips.com
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: 43.157.2.9
+          username: ubuntu
+          key: ${{ secrets.DEPLOY_KEY }}
+          source: "dist/*"
+          target: "/var/www/fyahpips/english-learning"
+          strip_components: 1
+
+      - name: Verify deployment
+        run: echo "✓ Deployed to https://fyahpips.com/english-learning/"
