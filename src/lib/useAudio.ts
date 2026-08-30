@@ -1,11 +1,11 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { useSettings, type Accent } from '@/store/settings';
+import { useSettings, type Accent, type TtsAccent } from '@/store/settings';
 import type { VerbForm } from '@/data/schema';
 
 /**
- * Cascade audio du §9.2, les trois niveaux :
- *   1. banque MP3 pré-générée, décrite par `public/audio/manifest.json` ;
- *   2. Web Speech API pour toute forme absente de la banque ;
+ * Cascade audio :
+ *   1. banque pré-générée avec vraies prononciations `us` / `uk` ;
+ *   2. TTS Web Speech configurable en `en-US` ou `en-GB` si aucun enregistrement fiable n'existe ;
  *   3. rien — le bouton haut-parleur est alors masqué, jamais grisé.
  *
  * L'absence d'audio ne doit jamais bloquer un quiz : chaque niveau échoue en
@@ -91,10 +91,10 @@ function fileUrl(manifest: Manifest, form: string, role: VerbForm | undefined, a
     const entry = manifest.forms[key];
     if (!entry) continue;
 
-    // Ordre de repli : accent demandé, puis l'autre accent, puis un
-    // enregistrement d'accent inconnu. Une voix humaine mal accentuée reste
-    // préférable à une voix de synthèse.
-    const chosen = entry[accent] ? accent : entry[other] ? other : entry.any ? 'any' : null;
+    // Repli fiable seulement : accent demandé, puis l'autre accent déclaré.
+    // Les enregistrements `any` (accent inconnu) ne sont plus servis au runtime,
+    // car certains sonnent comme une voix non native lisant l'anglais.
+    const chosen = entry[accent] ? accent : entry[other] ? other : null;
     if (chosen === null) continue;
 
     const ext = entry[chosen]?.ext ?? 'mp3';
@@ -118,6 +118,7 @@ export interface AudioApi {
 
 export function useAudio(): AudioApi {
   const accent = useSettings((state) => state.accent);
+  const ttsAccent = useSettings((state) => state.ttsAccent);
   const volume = useSettings((state) => state.volume);
   const [manifest, setManifest] = useState<Manifest | null>(null);
 
@@ -154,12 +155,16 @@ export function useAudio(): AudioApi {
     (text: string) => {
       if (!ttsAvailable() || text.trim() === '') return;
       const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = accent === 'uk' ? 'en-GB' : 'en-US';
+      const langByAccent: Record<TtsAccent, 'en-US' | 'en-GB'> = {
+        us: 'en-US',
+        uk: 'en-GB',
+      };
+      utterance.lang = langByAccent[ttsAccent];
       utterance.rate = 0.9;
       utterance.volume = volume;
       window.speechSynthesis.speak(utterance);
     },
-    [accent, volume],
+    [ttsAccent, volume],
   );
 
   const speak = useCallback(
