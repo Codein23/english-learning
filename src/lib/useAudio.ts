@@ -55,6 +55,46 @@ function ttsAvailable(): boolean {
   return typeof window !== 'undefined' && 'speechSynthesis' in window;
 }
 
+/**
+ * Choisit explicitement une voix de synthèse native pour l'accent demandé au
+ * lieu de laisser le navigateur deviner. Sans cela, de nombreux appareils
+ * résolvent `lang: 'en-US'` vers une voix anglophone non native (souvent
+ * `en-IN`, accent indien), ce qui casse la qualité perçue.
+ *
+ * Priorité : (1) locale exacte (`en-US` / `en-GB`), (2) voix dont le nom évoque
+ * l'accent canonique, (3) n'importe quelle voix `en-*`.
+ */
+function pickSynthesisVoice(targetLang: 'en-US' | 'en-GB'): SpeechSynthesisVoice | null {
+  if (!ttsAvailable()) return null;
+  const voices = window.speechSynthesis.getVoices();
+  if (voices.length === 0) return null;
+
+  const norm = (s: string) => s.toLowerCase().replace(/[_/\s]+/g, '-');
+  const target = targetLang.toLowerCase();
+  const isUs = target.startsWith('en-us');
+  const isUk = target.startsWith('en-gb');
+
+  const exact = voices.filter((v) => norm(v.lang).startsWith(target));
+  if (exact.length) {
+    // Préférer une voix "Google"/"Natural" quand plusieurs correspondent : plus claire.
+    const preferred = exact.find((v) => /google|natural|neural/i.test(v.name));
+    return preferred ?? exact[0];
+  }
+
+  const byName = voices.filter((v) => {
+    const n = norm(v.name);
+    if (isUs && /united-states|american|\(us\)|david|zira|jenny|guy|aria|samantha|google-us| daniel-enus/.test(n)) return true;
+    if (isUk && /united-kingdom|british|\(uk\)|\(gb\)|daniel|kate|sonia|google-uk|google-gb/.test(n)) return true;
+    return false;
+  });
+  if (byName.length) return byName[0];
+
+  const anyEn = voices.filter((v) => norm(v.lang).startsWith('en-'));
+  if (anyEn.length) return anyEn[0];
+
+  return null;
+}
+
 let unlocked = false;
 
 /** Déblocage iOS : sans lecture déclenchée par un geste, Safari reste muet. */
@@ -142,6 +182,17 @@ export function useAudio(): AudioApi {
     };
   }, []);
 
+  // Pré-charge la liste des voix. Tant que "voiceschanged" n'a pas été émis,
+  // getVoices() renvoie une liste vide : sans cela, la première dictée auto
+  // n'aurait pas de voix explicite et retomberait sur le défaut du navigateur.
+  useEffect(() => {
+    if (!ttsAvailable()) return;
+    window.speechSynthesis.getVoices(); // déclenche le chargement asynchrone
+    const onVoices = () => window.speechSynthesis.getVoices();
+    window.speechSynthesis.addEventListener('voiceschanged', onVoices);
+    return () => window.speechSynthesis.removeEventListener('voiceschanged', onVoices);
+  }, []);
+
   const stop = useCallback(() => {
     if (current) {
       current.pause();
@@ -159,7 +210,12 @@ export function useAudio(): AudioApi {
         us: 'en-US',
         uk: 'en-GB',
       };
-      utterance.lang = langByAccent[ttsAccent];
+      const lang = langByAccent[ttsAccent];
+      utterance.lang = lang;
+      // Voix native explicite — voir pickSynthesisVoice. Empêche le navigateur
+      // de retomber sur un accent non natif (ex. en-IN).
+      const voice = pickSynthesisVoice(lang);
+      if (voice) utterance.voice = voice;
       utterance.rate = 0.9;
       utterance.volume = volume;
       window.speechSynthesis.speak(utterance);

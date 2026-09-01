@@ -14,6 +14,7 @@ import { useProgress } from '@/store/progress';
 import { useLastConfig, useSession } from '@/store/session';
 import { requiredVerbCount, resolveScope } from '@/quiz/generate';
 import {
+  DEFAULT_CONFIG,
   MODE_DESCRIPTION,
   MODE_LABEL,
   QUIZ_MODES,
@@ -69,14 +70,15 @@ export function QuizSetupPage() {
   // Deep-link « s'entraîner sur ce verbe » depuis une fiche verbe : appliqué à
   // l'initialisation, pas dans un effet, pour éviter un premier rendu périmé.
   const [config, setConfig] = useState<QuizConfig>(() => {
+    const base = { ...DEFAULT_CONFIG, ...stored };
     const requested = params.get('verbs');
-    if (!requested) return stored;
+    if (!requested) return base;
     const ids = requested.split(',').filter((id) => getVerb(id) !== undefined);
-    if (ids.length === 0) return stored;
+    if (ids.length === 0) return base;
     return {
-      ...stored,
+      ...base,
       scope: { kind: 'manual', verbIds: ids },
-      questionCount: Math.max(5, Math.min(stored.questionCount, ids.length * 3)),
+      questionCount: Math.max(5, Math.min(base.questionCount, ids.length * 3)),
       allowRepeats: ids.length < 5,
     };
   });
@@ -132,6 +134,16 @@ export function QuizSetupPage() {
     if (count === 0) {
       setError("La session n'a pas pu être générée. Élargis le périmètre.");
       return;
+    }
+    const firstQuestion = useSession.getState().questions[0];
+    if (
+      config.audioOnReveal &&
+      audio.available &&
+      firstQuestion &&
+      firstQuestion.mode === 'dictation' &&
+      firstQuestion.spoken
+    ) {
+      audio.speak(firstQuestion.spoken);
     }
     setError(null);
     void navigate('/quiz/run');
@@ -407,7 +419,7 @@ export function QuizSetupPage() {
         <div className="grid gap-3 sm:grid-cols-2">
           <Switch
             label="Audio à l'affichage"
-            description="Prononce la forme dès que la correction apparaît."
+            description="En dictée, lance l'audio dès l'affichage ; sinon, prononce la bonne forme à la correction."
             checked={config.audioOnReveal}
             onChange={(audioOnReveal) => patch({ audioOnReveal })}
           />

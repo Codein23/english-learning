@@ -42,6 +42,21 @@ export function QuizRunPage() {
     if (status === 'idle') void navigate('/quiz', { replace: true });
   }, [navigate, status]);
 
+  // En dictée audio, la forme doit partir dès l'arrivée sur chaque question.
+  useEffect(() => {
+    if (
+      revealed ||
+      !config.audioOnReveal ||
+      !audio.available ||
+      !question ||
+      question.mode !== 'dictation' ||
+      !question.spoken
+    ) {
+      return;
+    }
+    audio.speak(question.spoken);
+  }, [audio, config.audioOnReveal, question, revealed]);
+
   // Lecture automatique de la bonne forme au dévoilement (§9.4).
   useEffect(() => {
     if (!revealed || !config.audioOnReveal || !audio.available || !question) return;
@@ -55,9 +70,19 @@ export function QuizRunPage() {
   }, [audio, config.audioOnReveal, question, revealed]);
 
   const handleAdvance = useCallback(() => {
+    const nextQuestion = questions[index + 1];
+    if (
+      nextQuestion &&
+      config.audioOnReveal &&
+      audio.available &&
+      nextQuestion.mode === 'dictation' &&
+      nextQuestion.spoken
+    ) {
+      audio.speak(nextQuestion.spoken);
+    }
     if (index + 1 >= questions.length) finish();
     else next();
-  }, [finish, index, next, questions.length]);
+  }, [audio, config.audioOnReveal, finish, index, next, questions]);
 
   const answer = useCallback(
     (input: AnswerInput) => {

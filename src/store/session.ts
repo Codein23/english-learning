@@ -84,6 +84,40 @@ function snapshot(): ProgressSnapshot {
   };
 }
 
+const DICTATION_HEAD_KEY = 'el:v1:lastDictationHead';
+
+function randomSeed(): number {
+  try {
+    if (typeof crypto !== 'undefined' && 'getRandomValues' in crypto) {
+      return crypto.getRandomValues(new Uint32Array(1))[0] ?? Date.now();
+    }
+  } catch {}
+  return Date.now();
+}
+
+function dictationHeadOf(questions: Question[]): string[] {
+  return questions.slice(0, 3).map((question) => question.verbIds[0] ?? question.id);
+}
+
+function readLastDictationHead(): string[] {
+  try {
+    if (typeof window === 'undefined' || !window.localStorage) return [];
+    const raw = window.localStorage.getItem(DICTATION_HEAD_KEY);
+    if (!raw) return [];
+    const value = JSON.parse(raw);
+    return Array.isArray(value) ? value.filter((item): item is string => typeof item === 'string') : [];
+  } catch {
+    return [];
+  }
+}
+
+function writeLastDictationHead(head: string[]): void {
+  try {
+    if (typeof window === 'undefined' || !window.localStorage) return;
+    window.localStorage.setItem(DICTATION_HEAD_KEY, JSON.stringify(head));
+  } catch {}
+}
+
 export const useSession = create<SessionState>()((set, get) => ({
   status: 'idle',
   config: DEFAULT_CONFIG,
@@ -99,8 +133,33 @@ export const useSession = create<SessionState>()((set, get) => ({
 
   /** Démarre une session et renvoie le nombre de questions réellement générées. */
   start: (config) => {
-    const seeded: QuizConfig = { ...config, seed: config.seed || Date.now() };
-    const questions = generateSession(seeded, verbs, snapshot());
+    const dictationMode = config.modes.includes('dictation');
+    let seeded: QuizConfig = {
+      ...config,
+      seed: randomSeed(),
+      audioOnReveal: dictationMode ? true : config.audioOnReveal,
+      shuffle: dictationMode ? true : config.shuffle,
+      srsWeighting: dictationMode ? true : config.srsWeighting,
+    };
+    let questions = generateSession(seeded, verbs, snapshot());
+
+    if (dictationMode && questions.length > 0) {
+      const previousHead = readLastDictationHead();
+      for (let attempt = 0; attempt < 5; attempt += 1) {
+        const currentHead = dictationHeadOf(questions);
+        if (
+          previousHead.length === 0 ||
+          currentHead.length === 0 ||
+          currentHead.join('|') !== previousHead.join('|')
+        ) {
+          break;
+        }
+        seeded = { ...seeded, seed: randomSeed() + attempt + 1 };
+        questions = generateSession(seeded, verbs, snapshot());
+      }
+      writeLastDictationHead(dictationHeadOf(questions));
+    }
+
     const now = Date.now();
 
     set({
@@ -117,7 +176,7 @@ export const useSession = create<SessionState>()((set, get) => ({
       bestCombo: 0,
     });
 
-    useLastConfig.getState().setConfig(seeded);
+    useLastConfig.getState().setConfig({ ...seeded, seed: 0 });
     return questions.length;
   },
 
