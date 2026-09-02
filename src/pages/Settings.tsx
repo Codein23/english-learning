@@ -4,7 +4,7 @@ import { PageTitle } from '@/components/ui/PageTitle';
 import { Button } from '@/components/ui/Button';
 import { SyncSettings } from '@/components/SyncSettings';
 import { isPersistenceAvailable } from '@/lib/storage';
-import { useSettings, type Accent, type ThemePreference } from '@/store/settings';
+import { useSettings, type Accent, type ThemePreference, type TtsAccent } from '@/store/settings';
 import { useProgress } from '@/store/progress';
 import { cx } from '@/lib/cx';
 
@@ -13,6 +13,8 @@ export function SettingsPage() {
   const setTheme = useSettings((state) => state.setTheme);
   const accent = useSettings((state) => state.accent);
   const setAccent = useSettings((state) => state.setAccent);
+  const ttsAccent = useSettings((state) => state.ttsAccent);
+  const setTtsAccent = useSettings((state) => state.setTtsAccent);
   const volume = useSettings((state) => state.volume);
   const setVolume = useSettings((state) => state.setVolume);
   const autoPlayAudio = useSettings((state) => state.autoPlayAudio);
@@ -52,12 +54,22 @@ export function SettingsPage() {
 
       <Section title="Audio">
         <Choice<Accent>
-          label="Accent"
+          label="Accent des enregistrements"
           value={accent}
           onChange={setAccent}
           options={[
             { value: 'us', label: 'Américain (US)' },
             { value: 'uk', label: 'Britannique (UK)' },
+          ]}
+        />
+
+        <Choice<TtsAccent>
+          label="Accent du TTS de secours"
+          value={ttsAccent}
+          onChange={setTtsAccent}
+          options={[
+            { value: 'us', label: 'Américain (en-US)' },
+            { value: 'uk', label: 'Britannique (en-GB)' },
           ]}
         />
 
@@ -91,7 +103,7 @@ export function SettingsPage() {
 
         <p className="flex items-start gap-2 text-xs text-muted">
           <Info aria-hidden="true" className="mt-0.5 size-3.5 shrink-0" strokeWidth={1.75} />
-          La banque audio et l'export/import de progression arrivent avec les lots suivants.
+          Les prononciations natives `US/UK` sont prioritaires. Si aucune n’est fiable, l’application bascule sur le TTS de secours choisi ici.
         </p>
       </Section>
 
