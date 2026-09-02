@@ -142,7 +142,7 @@ export function Matching({
                     </span>
                     {slot.fr && slot.fr.length > 0 && (
                       <span className="ml-auto text-sm text-muted" lang="fr">
-                        {slot.fr[0]}
+                        {slot.base} / {slot.fr[0]}
                       </span>
                     )}
                   </>
