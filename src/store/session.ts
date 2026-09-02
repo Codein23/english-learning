@@ -91,7 +91,9 @@ function randomSeed(): number {
     if (typeof crypto !== 'undefined' && 'getRandomValues' in crypto) {
       return crypto.getRandomValues(new Uint32Array(1))[0] ?? Date.now();
     }
-  } catch {}
+  } catch {
+    return Date.now();
+  }
   return Date.now();
 }
 
@@ -104,7 +106,7 @@ function readLastDictationHead(): string[] {
     if (typeof window === 'undefined' || !window.localStorage) return [];
     const raw = window.localStorage.getItem(DICTATION_HEAD_KEY);
     if (!raw) return [];
-    const value = JSON.parse(raw);
+    const value: unknown = JSON.parse(raw);
     return Array.isArray(value) ? value.filter((item): item is string => typeof item === 'string') : [];
   } catch {
     return [];
@@ -115,7 +117,9 @@ function writeLastDictationHead(head: string[]): void {
   try {
     if (typeof window === 'undefined' || !window.localStorage) return;
     window.localStorage.setItem(DICTATION_HEAD_KEY, JSON.stringify(head));
-  } catch {}
+  } catch {
+    /* stockage indisponible : la dictée continue sans anti-répétition */
+  }
 }
 
 export const useSession = create<SessionState>()((set, get) => ({

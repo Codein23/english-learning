@@ -41,9 +41,8 @@ describe('session seeding', () => {
   });
 
   it('reseeds each started session and does not persist the runtime seed', () => {
-    vi.spyOn(Date, 'now').mockReturnValueOnce(111111).mockReturnValueOnce(111111).mockReturnValueOnce(222222).mockReturnValueOnce(222222);
-
     const start = useSession.getState().start;
+
     start({ ...DEFAULT_CONFIG, modes: ['dictation'], questionCount: 2, seed: 12345, srsWeighting: false, shuffle: true });
     const firstSeed = useSession.getState().config.seed;
     const persistedFirst = useLastConfig.getState().config.seed;
@@ -52,8 +51,12 @@ describe('session seeding', () => {
     const secondSeed = useSession.getState().config.seed;
     const persistedSecond = useLastConfig.getState().config.seed;
 
-    expect(firstSeed).toBe(111111);
-    expect(secondSeed).toBe(222222);
+    // Le seed d'entrée est ignoré et remplacé par un aléa frais à chaque session :
+    // deux démarrages successifs produisent donc des seeds différents.
+    // En jsdom/Node, la source d'aléa est `crypto.getRandomValues` (pas `Date.now`),
+    // on ne fixe donc pas de valeurs exactes — on vérifie l'invariant réel.
+    expect(firstSeed).not.toBe(secondSeed);
+    // Le seed runtime ne doit jamais être persisté dans les réglages.
     expect(persistedFirst).toBe(0);
     expect(persistedSecond).toBe(0);
   });

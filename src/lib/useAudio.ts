@@ -78,19 +78,19 @@ function pickSynthesisVoice(targetLang: 'en-US' | 'en-GB'): SpeechSynthesisVoice
   if (exact.length) {
     // Préférer une voix "Google"/"Natural" quand plusieurs correspondent : plus claire.
     const preferred = exact.find((v) => /google|natural|neural/i.test(v.name));
-    return preferred ?? exact[0];
+    return preferred ?? exact[0] ?? null;
   }
 
   const byName = voices.filter((v) => {
     const n = norm(v.name);
-    if (isUs && /united-states|american|\(us\)|david|zira|jenny|guy|aria|samantha|google-us| daniel-enus/.test(n)) return true;
-    if (isUk && /united-kingdom|british|\(uk\)|\(gb\)|daniel|kate|sonia|google-uk|google-gb/.test(n)) return true;
+    if (isUs && /united-states|\bus\b|american|david|zira|jenny|guy|aria|samantha|google-us/.test(n)) return true;
+    if (isUk && /united-kingdom|\buk\b|\bgb\b|british|daniel|kate|sonia|google-uk|google-gb/.test(n)) return true;
     return false;
   });
-  if (byName.length) return byName[0];
+  if (byName.length) return byName[0] ?? null;
 
   const anyEn = voices.filter((v) => norm(v.lang).startsWith('en-'));
-  if (anyEn.length) return anyEn[0];
+  if (anyEn.length) return anyEn[0] ?? null;
 
   return null;
 }
