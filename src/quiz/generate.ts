@@ -195,6 +195,7 @@ function buildMatching(
       base: verb.base,
       past: [...verb.past],
       participle: [...verb.participle],
+      fr: [...verb.fr],
     })),
     cards: rng.shuffle(cards),
   };

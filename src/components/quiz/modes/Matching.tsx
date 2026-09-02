@@ -135,10 +135,17 @@ export function Matching({
                 ))}
 
                 {locked ? (
-                  <span className="ml-auto inline-flex items-center gap-1 rounded-full bg-success-subtle px-2 py-0.5 text-2xs font-medium text-success-text">
-                    <Check aria-hidden="true" className="size-3" strokeWidth={2} />
-                    Complet
-                  </span>
+                  <>
+                    <span className="inline-flex items-center gap-1 rounded-full bg-success-subtle px-2 py-0.5 text-2xs font-medium text-success-text">
+                      <Check aria-hidden="true" className="size-3" strokeWidth={2} />
+                      Complet
+                    </span>
+                    {slot.fr && slot.fr.length > 0 && (
+                      <span className="ml-auto text-sm text-muted" lang="fr">
+                        {slot.fr[0]}
+                      </span>
+                    )}
+                  </>
                 ) : null}
               </div>
             </li>

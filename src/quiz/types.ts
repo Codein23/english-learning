@@ -115,6 +115,8 @@ export interface MatchingSlot {
   /** Formes acceptées pour le prétérit et pour le participe. */
   past: string[];
   participle: string[];
+  /** Traductions françaises, pour affichage après complétion. */
+  fr?: string[];
 }
 
 interface BaseQuestion {
